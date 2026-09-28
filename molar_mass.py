@@ -7,7 +7,9 @@ ATOMIC_MASS = {
     "O": 15.999,
     "S": 32.06,
     "P": 30.974,
-    "Cl": 35.45
+    "Cl": 35.45,
+    "Na": 22.990,
+    "Ca": 40.078
 }
 
 def molar_mass(formula):
