@@ -13,12 +13,31 @@ ATOMIC_MASS = {
 }
 
 def molar_mass(formula):
-    tokens = re.findall(r'([A-Z][a-z]?)(\d*)', formula)
+    while "(" in formula:
+        match = re.search(r"\(([^()]*)\)(\d*)", formula)
+
+        if not match:
+            break
+
+        group = match.group(1)
+        multiplier = int(match.group(2)) if match.group(2) else 1
+
+        tokens = re.findall(r"([A-Z][a-z]?)(\d*)", group)
+        expanded = ""
+
+        for element, count in tokens:
+            n = int(count) if count else 1
+            expanded += element + str(n * multiplier)
+
+        formula = formula[:match.start()] + expanded + formula[match.end():]
+
+    tokens = re.findall(r"([A-Z][a-z]?)(\d*)", formula)
     total = 0.0
 
     for element, count in tokens:
         if element not in ATOMIC_MASS:
             raise ValueError(f"Unknown element: {element}")
+
         n = int(count) if count else 1
         total += ATOMIC_MASS[element] * n
 
