@@ -1,0 +1,30 @@
+[
+    {
+        "name": "water",
+        "smiles": "O"
+    },
+    {
+        "name": "ethanol",
+        "smiles": "CCO"
+    },
+    {
+        "name": "acetone",
+        "smiles": "CC(=O)C"
+    },
+    {
+        "name": "acetic_acid",
+        "smiles": "CC(=O)O"
+    },
+    {
+        "name": "benzene",
+        "smiles": "c1ccccc1"
+    },
+    {
+        "name": "aspirin",
+        "smiles": "CC(=O)Oc1ccccc1C(=O)O"
+    },
+    {
+        "name": "caffeine",
+        "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O"
+    }
+]

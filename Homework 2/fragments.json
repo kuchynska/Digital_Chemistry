@@ -1,0 +1,49 @@
+{
+    "workflow_name": "fragment_library",
+    "scaffold": {
+        "name": "phenyl_scaffold",
+        "smiles": "c1cc([*:1])ccc1"
+    },
+    "fragments": [
+        {
+            "name": "methyl",
+            "smiles": "[*:1]C"
+        },
+        {
+            "name": "hydroxyl",
+            "smiles": "[*:1]O"
+        },
+        {
+            "name": "amino",
+            "smiles": "[*:1]N"
+        },
+        {
+            "name": "fluoro",
+            "smiles": "[*:1]F"
+        },
+        {
+            "name": "chloro",
+            "smiles": "[*:1]Cl"
+        },
+        {
+            "name": "bromo",
+            "smiles": "[*:1]Br"
+        },
+        {
+            "name": "cyano",
+            "smiles": "[*:1]C#N"
+        },
+        {
+            "name": "carboxylic_acid",
+            "smiles": "[*:1]C(=O)O"
+        },
+        {
+            "name": "methoxy",
+            "smiles": "[*:1]OC"
+        },
+        {
+            "name": "pyridyl",
+            "smiles": "[*:1]c1cccnc1"
+        }
+    ]
+}

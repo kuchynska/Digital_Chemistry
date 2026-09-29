@@ -1,0 +1,11 @@
+name,canonical_smiles
+phenyl_methyl,Cc1ccccc1
+phenyl_hydroxyl,Oc1ccccc1
+phenyl_amino,Nc1ccccc1
+phenyl_fluoro,Fc1ccccc1
+phenyl_chloro,Clc1ccccc1
+phenyl_bromo,Brc1ccccc1
+phenyl_cyano,N#Cc1ccccc1
+phenyl_carboxylic_acid,O=C(O)c1ccccc1
+phenyl_methoxy,COc1ccccc1
+phenyl_pyridyl,c1ccc(-c2cccnc2)cc1
