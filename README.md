@@ -16,12 +16,28 @@ The molecular records were combined with the reaction data from `rxn.csv` and `r
 
 The compounds are represented as nodes and the reactions as directed edges. The reaction network was saved as `rxn-net.json` and visualized in `rxn-net.png`.
 
-### Part C – Query
+### Part C – Query and filtering
 
-A simple query was implemented to find products that can be reached directly from ethanol.
+Two simple queries were implemented.
 
-For the current reaction network, the query returns:
+The first query finds products that can be reached directly from ethanol. 
+The result is:
 
-`Acetaldehyde`
+- Acetaldehyde
+- Ethene
+- Water
 
-This shows how structured chemical data can be searched and reused programmatically.
+The second query filters reactions with a yield higher than 90%.
+
+The result is:
+
+- R002
+- R003
+
+## Reflection
+
+In this homework, molecular data from different CSV files were combined and converted into structured JSON data.
+
+A reaction network was created using NetworkX and visualized with Matplotlib. The network shows the relationships between molecules and the corresponding reaction types.
+
+The exercise also demonstrates how reaction data can be searched and filtered using Python.

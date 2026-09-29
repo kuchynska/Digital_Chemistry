@@ -1,2 +1,5 @@
 reaction_id,source,target,reaction_type
 R001,M001,M002,oxidation
+R002,M002,M003,oxidation
+R003,M001,M004,dehydration
+R003,M001,M005,dehydration

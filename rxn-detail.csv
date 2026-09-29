@@ -1,2 +1,4 @@
 reaction_id,equation,yield_percent,temperature_C
 R001,C2H6O + 1/2 O2 -> C2H4O + H2O,68,250
+R002,C2H4O + 1/2 O2 -> C2H4O2,96,60
+R003,C2H6O -> C2H4 + H2O,98,400

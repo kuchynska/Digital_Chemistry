@@ -30,6 +30,33 @@
             "equation": "C2H6O + 1/2 O2 -> C2H4O + H2O",
             "yield_percent": "68",
             "temperature_C": "250"
+        },
+        {
+            "id": "R002",
+            "source": "M002",
+            "target": "M003",
+            "reaction_type": "oxidation",
+            "equation": "C2H4O + 1/2 O2 -> C2H4O2",
+            "yield_percent": "96",
+            "temperature_C": "60"
+        },
+        {
+            "id": "R003",
+            "source": "M001",
+            "target": "M004",
+            "reaction_type": "dehydration",
+            "equation": "C2H6O -> C2H4 + H2O",
+            "yield_percent": "98",
+            "temperature_C": "400"
+        },
+        {
+            "id": "R003",
+            "source": "M001",
+            "target": "M005",
+            "reaction_type": "dehydration",
+            "equation": "C2H6O -> C2H4 + H2O",
+            "yield_percent": "98",
+            "temperature_C": "400"
         }
     ]
 }

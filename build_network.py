@@ -67,11 +67,50 @@ for node in nodes:
     G.add_node(node["id"], label=node["label"])
 
 for edge in edges:
-    G.add_edge(edge["source"], edge["target"])
+    G.add_edge(
+        edge["source"],
+        edge["target"],
+        reaction_type=edge["reaction_type"]
+    )
+  
+
+
 
 labels = nx.get_node_attributes(G, "label")
+edge_labels = {
+    ("M001", "M002"): "oxidation",
+    ("M002", "M003"): "oxidation",
+    ("M001", "M004"): "dehydration"
+}
 
-nx.draw(G, with_labels=True, labels=labels, arrows=True)
+pos = {
+    "M001": (0, 0),       # Ethanol
+
+    "R001": (0, -1),
+    "M002": (0, -2),      # Acetaldehyde
+    "R002": (0, -3),
+    "M003": (0, -4),      # Acetic acid
+
+    "R003": (2, 0),
+    "M004": (3, -1),      # Ethene
+    "M005": (3, 1)        # Water
+}
+
+
+nx.draw(G, pos, with_labels=True, labels=labels, arrows=True)
+nx.draw_networkx_edge_labels(
+    G,
+    pos,
+    edge_labels=edge_labels
+)
+plt.text(
+    3, 0,
+    "+",
+    fontsize=20,
+    ha="center",
+    va="center"
+)
+
 plt.savefig("rxn-net.png")
 plt.close()
 
@@ -86,3 +125,12 @@ for edge in edges:
              products.append(node["label"])
 
 print("Products reachable from Ethanol:", products)
+
+high_yield_reactions = []
+
+for edge in edges:
+    if float(edge["yield_percent"]) > 90:
+       if edge["id"] not in high_yield_reactions:
+          high_yield_reactions.append(edge["id"])
+
+print("Reactions with yield > 90%:", high_yield_reactions)
