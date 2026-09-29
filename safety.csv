@@ -1,0 +1,6 @@
+molecule_id,flammable,signal_word_teaching,hazard_summary_teaching
+M001,yes,Danger,Highly flammable liquid and vapor
+M002,yes,Danger,Highly flammable liquid and vapor
+M003,yes,Danger,Flammable liquid and vapor
+M004,yes,Danger,Extremely flammable gas
+M005,no,None,No significant hazard for this exercise

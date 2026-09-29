@@ -1,0 +1,92 @@
+[
+    {
+        "molecule_id": "M001",
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "class": "alcohol",
+        "properties": {
+            "molecule_id": "M001",
+            "molar_mass_g_mol": "46.07",
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "molecule_id": "M001",
+            "flammable": "yes",
+            "signal_word_teaching": "Danger",
+            "hazard_summary_teaching": "Highly flammable liquid and vapor"
+        }
+    },
+    {
+        "molecule_id": "M002",
+        "name": "Acetaldehyde",
+        "smiles": "CC=O",
+        "formula": "C2H4O",
+        "class": "aldehyde",
+        "properties": {
+            "molecule_id": "M002",
+            "molar_mass_g_mol": "44.05",
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "molecule_id": "M002",
+            "flammable": "yes",
+            "signal_word_teaching": "Danger",
+            "hazard_summary_teaching": "Highly flammable liquid and vapor"
+        }
+    },
+    {
+        "molecule_id": "M003",
+        "name": "Acetic acid",
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "class": "carboxylic acid",
+        "properties": {
+            "molecule_id": "M003",
+            "molar_mass_g_mol": "60.05",
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "molecule_id": "M003",
+            "flammable": "yes",
+            "signal_word_teaching": "Danger",
+            "hazard_summary_teaching": "Flammable liquid and vapor"
+        }
+    },
+    {
+        "molecule_id": "M004",
+        "name": "Ethene",
+        "smiles": "C=C",
+        "formula": "C2H4",
+        "class": "alkene",
+        "properties": {
+            "molecule_id": "M004",
+            "molar_mass_g_mol": "28.05",
+            "phase_25C": "gas"
+        },
+        "safety": {
+            "molecule_id": "M004",
+            "flammable": "yes",
+            "signal_word_teaching": "Danger",
+            "hazard_summary_teaching": "Extremely flammable gas"
+        }
+    },
+    {
+        "molecule_id": "M005",
+        "name": "Water",
+        "smiles": "O",
+        "formula": "H2O",
+        "class": "inorganic",
+        "properties": {
+            "molecule_id": "M005",
+            "molar_mass_g_mol": "18.02",
+            "phase_25C": "liquid"
+        },
+        "safety": {
+            "molecule_id": "M005",
+            "flammable": "no",
+            "signal_word_teaching": "None",
+            "hazard_summary_teaching": "No significant hazard for this exercise"
+        }
+    }
+]

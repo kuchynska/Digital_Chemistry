@@ -1,0 +1,35 @@
+{
+    "nodes": [
+        {
+            "id": "M001",
+            "label": "Ethanol"
+        },
+        {
+            "id": "M002",
+            "label": "Acetaldehyde"
+        },
+        {
+            "id": "M003",
+            "label": "Acetic acid"
+        },
+        {
+            "id": "M004",
+            "label": "Ethene"
+        },
+        {
+            "id": "M005",
+            "label": "Water"
+        }
+    ],
+    "edges": [
+        {
+            "id": "R001",
+            "source": "M001",
+            "target": "M002",
+            "reaction_type": "oxidation",
+            "equation": "C2H6O + 1/2 O2 -> C2H4O + H2O",
+            "yield_percent": "68",
+            "temperature_C": "250"
+        }
+    ]
+}

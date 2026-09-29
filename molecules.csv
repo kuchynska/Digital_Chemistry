@@ -1,0 +1,6 @@
+molecule_id,name,smiles,formula,class
+M001,Ethanol,CCO,C2H6O,alcohol
+M002,Acetaldehyde,CC=O,C2H4O,aldehyde
+M003,Acetic acid,CC(=O)O,C2H4O2,carboxylic acid
+M004,Ethene,C=C,C2H4,alkene
+M005,Water,O,H2O,inorganic
