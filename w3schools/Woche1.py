@@ -329,3 +329,68 @@ print(txt[2:5])
 print(txt.upper())
 name="Python"
 print(f"I love {name}")
+#Update 6.10.2026
+#Python Booleans True or false
+
+print(10<9) #false
+print(56>43) #true
+print(10==9) #false
+#with "if"
+a=200
+b=57
+if a>b:
+    print("a is greater than b")
+else: 
+    print ("a is not greater than b")
+c=33
+d=330
+if c>d:
+    print("c is greater than d")
+else:
+    print("c is not greater than d")
+
+print("True-values")   #True
+print(bool("Hello"))
+print(bool(19))
+print(bool(123))
+print(bool("abc"))
+print(bool(["apple","banana","cherry"]))
+
+print("False-values") #False
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+
+def add():
+    return 2+3
+x=add()
+print(x)
+
+def is_positive(x):
+    return x>0
+print(is_positive(5))
+
+def myfunc():
+    return True
+if myfunc():
+    print("YES!")
+else:
+    print("NO!")
+#isinstance()
+x=200
+print(isinstance(x,int))
+y=20.5
+print(isinstance(y,float))
+z="banana"
+print(isinstance(z,str))
+
+#Challenge: Booleans
+print("Challenge: Booleans ")
+print(10>9)
+print(10==9)
+print(bool("Hello"))
+print(bool(0))
