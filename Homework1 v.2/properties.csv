@@ -1,0 +1,16 @@
+molecule_id,molar_mass_g_mol,phase_25C,provenance
+M001,32.0419,liquid,NIST
+M002,30.0260,gas,NIST_or_PubChem
+M003,46.0254,liquid,NIST_or_PubChem
+M004,28.0101,gas,standard_reference
+M005,44.0095,gas,standard_reference
+M006,28.0532,gas,NIST
+M007,46.0684,liquid,NIST
+M008,44.0526,liquid,NIST
+M009,60.0520,liquid,NIST
+M010,60.0950,liquid,NIST
+M011,58.0791,liquid,NIST
+M012,74.0785,liquid,NIST
+M013,60.0950,liquid,NIST
+M014,58.0791,liquid,NIST
+M015,42.0797,gas,NIST

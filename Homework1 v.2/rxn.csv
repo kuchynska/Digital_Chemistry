@@ -1,0 +1,25 @@
+reaction_id,source_id,target_id,reaction_type,equation,edge_label
+R001,M001,M002,oxidation,CH4O + 1/2 O2 -> CH2O + H2O,methanol to formaldehyde
+R002,M002,M003,oxidation,CH2O + 1/2 O2 -> CH2O2,formaldehyde to formic acid
+R003,M003,M005,oxidation,CH2O2 + 1/2 O2 -> CO2 + H2O,formic acid to carbon dioxide
+R004,M001,M005,complete oxidation,CH4O + 3/2 O2 -> CO2 + 2 H2O,methanol to carbon dioxide
+R005,M001,M004,partial oxidation,CH4O + O2 -> CO + 2 H2O,methanol to carbon monoxide
+R006,M002,M004,partial oxidation,CH2O + 1/2 O2 -> CO + H2O,formaldehyde to carbon monoxide
+R007,M004,M005,oxidation,CO + 1/2 O2 -> CO2,carbon monoxide to carbon dioxide
+R008,M006,M007,hydration,C2H4 + H2O -> C2H6O,ethene to ethanol
+R009,M007,M006,dehydration,C2H6O -> C2H4 + H2O,ethanol to ethene
+R010,M007,M008,oxidation,C2H6O + 1/2 O2 -> C2H4O + H2O,ethanol to acetaldehyde
+R011,M008,M009,oxidation,C2H4O + 1/2 O2 -> C2H4O2,acetaldehyde to acetic acid
+R012,M007,M009,oxidation,C2H6O + O2 -> C2H4O2 + H2O,ethanol to acetic acid
+R013,M007,M005,complete oxidation,C2H6O + 3 O2 -> 2 CO2 + 3 H2O,ethanol to carbon dioxide
+R014,M008,M005,complete oxidation,C2H4O + 5/2 O2 -> 2 CO2 + 2 H2O,acetaldehyde to carbon dioxide
+R015,M009,M005,complete oxidation,C2H4O2 + 2 O2 -> 2 CO2 + 2 H2O,acetic acid to carbon dioxide
+R016,M010,M011,oxidation,C3H8O + 1/2 O2 -> C3H6O + H2O,1-propanol to propanal
+R017,M011,M012,oxidation,C3H6O + 1/2 O2 -> C3H6O2,propanal to propionic acid
+R018,M010,M012,oxidation,C3H8O + O2 -> C3H6O2 + H2O,1-propanol to propionic acid
+R019,M010,M005,complete oxidation,C3H8O + 9/2 O2 -> 3 CO2 + 4 H2O,1-propanol to carbon dioxide
+R020,M011,M004,partial oxidation,C3H6O + 5/2 O2 -> 3 CO + 3 H2O,propanal to carbon monoxide
+R021,M011,M005,complete oxidation,C3H6O + 4 O2 -> 3 CO2 + 3 H2O,propanal to carbon dioxide
+R022,M013,M014,oxidation,C3H8O + 1/2 O2 -> C3H6O + H2O,2-propanol to acetone
+R023,M013,M015,dehydration,C3H8O -> C3H6 + H2O,2-propanol to propene
+R024,M015,M013,hydration,C3H6 + H2O -> C3H8O,propene to 2-propanol

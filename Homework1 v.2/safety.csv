@@ -1,0 +1,16 @@
+molecule_id,flammable,signal_word,hazard_category
+M001,yes,Danger,Highly flammable and toxic
+M002,yes,Danger,Flammable and harmful/irritant
+M003,no,Warning,Corrosive/irritant
+M004,yes,Danger,Flammable toxic gas
+M005,no,Warning,Compressed/asphyxiant gas context dependent
+M006,yes,Danger,Extremely flammable gas
+M007,yes,Danger,Highly flammable liquid and vapor
+M008,yes,Danger,Highly flammable and irritating
+M009,yes_or_no_depends_on_concentration,Warning_or_Danger,Corrosive and irritating
+M010,yes,Danger,Flammable liquid and vapor
+M011,yes,Danger,Flammable and irritating
+M012,no,Warning,Corrosive/irritant
+M013,yes,Danger,Highly flammable liquid and vapor
+M014,yes,Danger,Highly flammable liquid and vapor
+M015,yes,Danger,Extremely flammable gas

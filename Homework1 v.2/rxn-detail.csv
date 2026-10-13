@@ -1,0 +1,25 @@
+reaction_id,temperature_C,pressure_bar,catalyst,solvent,yield_percent,selectivity_percent
+R001,250,1,metal oxide,None,88,92
+R002,80,1,None,None,76,84
+R003,120,1,None,None,90,95
+R004,300,1,None,None,99,99
+R005,250,1,metal oxide,None,52,60
+R006,150,1,None,None,48,55
+R007,200,1,Pt_or_Pd,None,99,99
+R008,25,1,acid catalyst,water,72,80
+R009,180,1,H2SO4,None,70,78
+R010,250,1,Cu-based,None,68,75
+R011,60,1,None,None,82,90
+R012,180,1,oxidant present,None,58,66
+R013,300,1,None,None,99,99
+R014,250,1,None,None,99,99
+R015,300,1,None,None,99,99
+R016,220,1,Cu-based,None,65,72
+R017,70,1,None,None,80,88
+R018,200,1,oxidant present,None,56,63
+R019,320,1,None,None,99,99
+R020,260,1,None,None,44,50
+R021,300,1,None,None,99,99
+R022,200,1,Cu-based,None,85,92
+R023,170,1,H2SO4,None,68,75
+R024,25,1,acid catalyst,water,74,82

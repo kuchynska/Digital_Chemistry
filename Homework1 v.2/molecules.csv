@@ -1,0 +1,16 @@
+molecule_id,name,formula,class,carbon_number,notes
+M001,Methanol,CH4O,primary alcohol,1,C1 alcohol
+M002,Formaldehyde,CH2O,aldehyde,1,methanal
+M003,Formic acid,CH2O2,carboxylic acid,1,methanoic acid
+M004,Carbon monoxide,CO,oxide,1,C1 oxide
+M005,Carbon dioxide,CO2,oxide,1,C1 oxide
+M006,Ethene,C2H4,alkene,2,ethylene
+M007,Ethanol,C2H6O,primary alcohol,2,C2 alcohol
+M008,Acetaldehyde,C2H4O,aldehyde,2,ethanal
+M009,Acetic acid,C2H4O2,carboxylic acid,2,ethanoic acid
+M010,1-Propanol,C3H8O,primary alcohol,3,propan-1-ol
+M011,Propanal,C3H6O,aldehyde,3,propionaldehyde
+M012,Propionic acid,C3H6O2,carboxylic acid,3,propanoic acid
+M013,2-Propanol,C3H8O,secondary alcohol,3,propan-2-ol or isopropanol
+M014,Acetone,C3H6O,ketone,3,propanone
+M015,Propene,C3H6,alkene,3,propylene
