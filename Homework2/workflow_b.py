@@ -1,24 +1,22 @@
+import json
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem.Draw import MolToFile
-scaffold_smiles = "c1ccccc1[*:1]"
+filename = input("Enter JSON filename: ")
+
+with open(filename) as file:
+    data = json.load(file)
+
+print(data["workflow_name"])
+scaffold_smiles = data["scaffold"]["smiles"]
 scaffold_mol=Chem.MolFromSmiles(scaffold_smiles)
 if scaffold_mol is None:
     raise ValueError("Invalid scaffold SMILES")
-fragments={
-"methyl": "[*:1]C",
-"hydroxyl": "[*:1]O",
-"amino": "[*:1]N",
-"chloro": "[*:1]Cl",
-"fluoro":"[*:1]F",
-"bromo":"[*:1]Br",
-"cyano":"[*:1]C#N",
-"carboxylic_acid":"[*:1]C(=O)O",
-"methoxy":"[*:1]OC",
-"pyridyl":"[*:1]c1ccncc1"
-}
+fragments= data["fragments"]
 writer=Chem.SDWriter("Homework2/workflow_b_results.sdf")
-for name, smiles in fragments.items():
+for fragment in fragments:
+    name = fragment["name"]
+    smiles = fragment["smiles"]
     print(name, smiles)
     fragment_mol=Chem.MolFromSmiles(smiles)
     print(name, fragment_mol)
@@ -57,3 +55,7 @@ for name, smiles in fragments.items():
     writer.write(product_mol)
     Chem.MolToXYZFile(mol_3d,filename_xyz)
 writer.close()
+
+print("Workflow B completed")
+print("Total molecules:", len(fragments))
+print("SDF file: Homework2/workflow_b_results.sdf")
