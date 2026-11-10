@@ -1,0 +1,89 @@
+
+import os
+import csv
+import numpy as np
+
+# Ordner eingegeben
+ordner = input("Ordner eingeben: ")
+
+ergebnisse = []
+
+# Alle MOL2-Dateien gefunden
+for datei in os.listdir(ordner):
+
+    if not datei.endswith(".mol2"):
+        continue
+
+    print("\nMolekül:", datei)
+
+    with open(os.path.join(ordner, datei)) as file:
+        lines = file.readlines()
+
+    atome = []
+    coords = []
+    bindungen = []
+    abschnitt = ""
+
+    # Atome und Bindungen eingelesen
+    for line in lines:
+
+        if line.startswith("@<TRIPOS>ATOM"):
+            abschnitt = "ATOM"
+            continue
+
+        if line.startswith("@<TRIPOS>BOND"):
+            abschnitt = "BOND"
+            continue
+
+        if line.startswith("@<TRIPOS>"):
+            abschnitt = ""
+            continue
+
+        data = line.split()
+
+        if abschnitt == "ATOM" and len(data) >= 6:
+            atome.append(data[1])
+            coords.append([
+                float(data[2]),
+                float(data[3]),
+                float(data[4])
+            ])
+
+        if abschnitt == "BOND" and len(data) >= 4:
+            i = int(data[1]) - 1
+            j = int(data[2]) - 1
+            bindungen.append([i, j])
+
+    # Atomkoordinaten ausgegeben
+    print("Atomkoordinaten:")
+
+    for i in range(len(atome)):
+        print(atome[i], coords[i])
+
+    # Bindungslängen berechnet
+    print("Bindungslängen:")
+
+    for i, j in bindungen:
+        a = np.array(coords[i])
+        b = np.array(coords[j])
+
+        vektor = b - a
+        laenge = np.linalg.norm(vektor)
+
+        print(atome[i], "-", atome[j],
+              round(laenge, 3), "Å")
+
+        ergebnisse.append([
+            datei, atome[i], atome[j],
+            round(laenge, 3)
+        ])
+
+# Ergebnisse gespeichert
+with open(os.path.join(ordner, "bond_lengths_all.csv"),
+          "w", newline="") as file:
+
+    writer = csv.writer(file)
+    writer.writerow(["Molekuel", "Atom1", "Atom2", "Laenge_A"])
+    writer.writerows(ergebnisse)
+
+print("\nCSV-Datei gespeichert")
