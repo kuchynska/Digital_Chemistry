@@ -1,0 +1,2346 @@
+﻿
+
+ Parallel Execution: Process Information
+ ==============================================================================
+ Rank   Node Name                              NodeID   MyNodeRank  NodeMaster
+    0   CHEMINATOR                                0          0          0
+ ==============================================================================
+
+
+
+ *******************************************************************************
+ *                                                                             *
+ *  --------------------------------                                           *
+ *   Amsterdam Modeling Suite (AMS)              2025.104                      *
+ *  --------------------------------                                           *
+ *                                               r250815 2025-08-15 94ea0506   *
+ *                                                                             *
+ *                                                                             *
+ *                              =================                              *
+ *                              |               |                              *
+ *                              |     A M S     |                              *
+ *                              |               |                              *
+ *                              =================                              *
+ *                                                                             *
+ *                                                                             *
+ *   Online information and documentation:  https://www.scm.com/support/       *
+ *   E-mail:  support@scm.com   info@scm.com                                   *
+ *                                                                             *
+ *   Scientific publications using AMS results must be properly referenced     *
+ *   See the User Manuals (or the web site) for recommended citations          *
+ *   The terms and conditions of the End User License Agreement apply to       *
+ *   the use of AMS, https://www.scm.com/license-terms/                        *
+ *                                                                             *
+ ***********************  x86_64_windows_intel / msmpi  ************************
+ 
+ Licensed to: Dr. Aleksandar Kondinski / Graz University of Technology (TU Graz) / Graz / Austria 2025-10-30 11:15:13
+ SCM User ID: u29121
+  
+ AMS 2025.104  RunTime: Sep30-2026 18:51:15  ShM Nodes: 1  Procs: 1
+
+ AMS jobname: ams
+ AMS jobid  : 1927840800
+
+ Start   directory: C:/Cheminator/Haas/output/hydrosilane_ams_library/results_adf_pbe_dzp/59_silyl_thiogermane/
+ Results directory: C:/Cheminator/Haas/output/hydrosilane_ams_library/results_adf_pbe_dzp/59_silyl_thiogermane/ams.results/
+ Scratch directory: C:/SCMTMP/amstmp_ams_kid0.1927840800/
+
+ RNG seed: 1227614092 -1563963973 -977565825 584090109 279389994 -914109316 164855643 -1195969859
+
+
+
+                      ************************************************************************
+                      *  ADF 2025.104  RunTime: Sep30-2026 18:51:15  ShM Nodes: 1  Procs: 1  *
+                      ************************************************************************
+  
+
+       ***************************
+       *  GEOMETRY OPTIMIZATION  *
+       ***************************
+
+Optimization Method                    Quasi Newton
+Optimization Coordinates               Delocalized Coordinates
+Optimize lattice                       F
+ 
+ ------------------------------------------------------
+ Convergence criteria (Hartree,Angstrom)
+ ------------------------------------------------------
+ Maximum gradient               0.001000000000
+ Maximum rms gradient           0.000666666667
+ Maximum step allowed           0.010000000000
+ Maximum rms step allowed       0.006666666667
+ Maximum energy change allowe   0.000090000000
+ Maximum stress energy allowe   0.000500000000
+ 
+Initial model Hessian                  Automatic Hessian
+ 
+------------------------------------
+Quasi-Newton Optimizer Parameters
+------------------------------------
+Hessian Update Method                  BFGS
+Maximum number of steps                  250
+First GDIIS cycle                          0
+Maximum GDIIS vectors                      0
+Trust radius (bohr)                        0.200000
+Trust radius varies                        T
+Constraints converged at all steps         T
+Use projector                              T
+ 
+ Rigid motions settings for: old optimizer
+ Atomic rotations (x,y,z):     T T T
+ Atomic translations (x,y,z):  T T T
+ Tolerance:                  1.000000000000000E-006
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.29713709    -1.20664859     0.33350031
+      2      S    -0.85359915     0.36600599     0.10177109
+      3     Ge     0.73895409    -0.82655567     1.09024010
+      4      H    -2.47600417    -1.50663348     1.76212821
+      5      H    -3.58202968    -0.77694837    -0.23772161
+      6      H    -1.83155731    -2.41213621    -0.36863678
+      7      H     2.04876507     0.00093931     1.13473941
+      8      H     0.98241215    -2.13208036     0.29052253
+      9      H     0.30328692    -1.17786487     2.53591904
+ 
+Total System Charge             0.00000
+ 
+ 
+----------------
+ADF Engine Input
+----------------
+ 
+ Basis
+ Type DZP
+ End
+ XC
+ GGA PBE
+ End
+ NumericalQuality Basic
+ 
+
+ Title: *** (NO TITLE) ***
+
+ Using automatic Hessian for delocalized coordinates.
+ *** GO1_GOStep1 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si   -0.000286 -0.011041  0.004687
+     2 S     0.029107 -0.027757  0.021277
+     3 Ge   -0.038508  0.019944 -0.019485
+     4 H     0.001779  0.005553 -0.018939
+     5 H     0.013650 -0.007860  0.007815
+     6 H    -0.005412  0.016421  0.008010
+     7 H    -0.006316 -0.009634  0.001617
+     8 H     0.000107  0.011606  0.008227
+     9 H     0.005878  0.002768 -0.013208
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   1       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.22558700 Hartree
+energy change                      -1.22558700     0.00009000    F
+constrained gradient max            0.03849382     0.00100000    F
+constrained gradient rms            0.01502230     0.00066667    F
+gradient max                        0.03849382
+gradient rms                        0.01502230
+cart. step max                      0.01668345     0.01000000    F
+cart. step rms                      0.00751601     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.29689377    -1.20551925     0.33322079
+      2      S    -0.85871425     0.37287111     0.09262476
+      3     Ge     0.74709214    -0.83377936     1.09588118
+      4      H    -2.47445313    -1.51493235     1.77181040
+      5      H    -3.58563596    -0.76110111    -0.24357676
+      6      H    -1.83372161    -2.42327798    -0.37250275
+      7      H     2.04888242     0.01762276     1.13109574
+      8      H     0.98546293    -2.14308883     0.28570081
+      9      H     0.30107204    -1.18071724     2.54820813
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep2 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si    0.003291 -0.007525  0.004418
+     2 S     0.020911 -0.018407  0.014613
+     3 Ge   -0.031471  0.014803 -0.015513
+     4 H     0.001134  0.003431 -0.011341
+     5 H     0.008298 -0.004747  0.004621
+     6 H    -0.002989  0.010038  0.004863
+     7 H    -0.003765 -0.006482  0.001231
+     8 H     0.000425  0.007223  0.005253
+     9 H     0.004166  0.001666 -0.008145
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.11425E-02, dE(actual):    -0.18133E-02, Trust radius:    0.200000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   2       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.22740027 Hartree
+energy change                      -0.00181327     0.00009000    F
+constrained gradient max            0.03146143     0.00100000    F
+constrained gradient rms            0.01078012     0.00066667    F
+gradient max                        0.03146143
+gradient rms                        0.01078012
+cart. step max                      0.03979026     0.01000000    F
+cart. step rms                      0.01658428     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.29844615    -1.20186144     0.33056986
+      2      S    -0.86764651     0.38314701     0.07321457
+      3     Ge     0.77107978    -0.85105491     1.11061679
+      4      H    -2.47254480    -1.53263241     1.78797475
+      5      H    -3.59616122    -0.72840462    -0.25280888
+      6      H    -1.84639381    -2.44592261    -0.38232018
+      7      H     2.04930690     0.05741302     1.12361756
+      8      H     0.99690108    -2.16665800     0.27706792
+      9      H     0.29699553    -1.18594828     2.57452991
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep3 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si    0.009671 -0.000623  0.003782
+     2 S     0.005135 -0.001042  0.002008
+     3 Ge   -0.016179  0.003582 -0.007066
+     4 H    -0.000009 -0.000687  0.002110
+     5 H    -0.001403  0.001057 -0.001141
+     6 H     0.001057 -0.001607 -0.000628
+     7 H     0.000904  0.000471  0.000216
+     8 H     0.000554 -0.001037 -0.000792
+     9 H     0.000270 -0.000115  0.001511
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.17198E-02, dE(actual):    -0.16899E-02, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   3       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.22909018 Hartree
+energy change                      -0.00168992     0.00009000    F
+constrained gradient max            0.01618166     0.00100000    F
+constrained gradient rms            0.00422593     0.00066667    F
+gradient max                        0.01618166
+gradient rms                        0.00422593
+cart. step max                      0.00930215     0.01000000    T
+cart. step rms                      0.00428150     0.00666667    T
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.30164616    -1.20040403     0.32802269
+      2      S    -0.86881605     0.38126440     0.06972057
+      3     Ge     0.78022161    -0.85425756     1.11528533
+      4      H    -2.47428222    -1.53498319     1.78686157
+      5      H    -3.60184054    -0.72459057    -0.25186893
+      6      H    -1.85569596    -2.44829113    -0.38637997
+      7      H     2.05157019     0.06603606     1.12288273
+      8      H     1.00446267    -2.17000192     0.27887489
+      9      H     0.29911728    -1.18669431     2.57906342
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep4 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si    0.010032  0.000876  0.003231
+     2 S     0.001808  0.001070  0.000077
+     3 Ge   -0.012173  0.001237 -0.004900
+     4 H    -0.000132 -0.001075  0.003151
+     5 H    -0.002280  0.001251 -0.001468
+     6 H     0.001292 -0.002632 -0.001038
+     7 H     0.001395  0.001406  0.000003
+     8 H     0.000389 -0.001822 -0.001449
+     9 H    -0.000332 -0.000310  0.002393
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.10920E-03, dE(actual):    -0.14241E-03, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   4       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.22923259 Hartree
+energy change                      -0.00014241     0.00009000    F
+constrained gradient max            0.01217711     0.00100000    F
+constrained gradient rms            0.00351828     0.00066667    F
+gradient max                        0.01217711
+gradient rms                        0.00351828
+cart. step max                      0.02813201     0.01000000    F
+cart. step rms                      0.01124450     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.31274616    -1.19790155     0.32072861
+      2      S    -0.86975285     0.37060397     0.06435486
+      3     Ge     0.80248692    -0.85896121     1.12584790
+      4      H    -2.48150715    -1.53874263     1.77870060
+      5      H    -3.61686733    -0.71953589    -0.24643615
+      6      H    -1.88382796    -2.44953909    -0.39813333
+      7      H     2.05844922     0.08230740     1.12240080
+      8      H     1.02763047    -2.17369699     0.28863568
+      9      H     0.30922565    -1.18645626     2.58636332
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep5 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si    0.009152  0.003466  0.001741
+     2 S    -0.003987  0.002852 -0.002439
+     3 Ge   -0.004073 -0.002669 -0.000629
+     4 H    -0.000192 -0.001104  0.002899
+     5 H    -0.002389  0.000299 -0.001008
+     6 H     0.001060 -0.002660 -0.000911
+     7 H     0.001507  0.002155 -0.000322
+     8 H    -0.000084 -0.001926 -0.001726
+     9 H    -0.000994 -0.000411  0.002395
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.21740E-03, dE(actual):    -0.26145E-03, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   5       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.22949404 Hartree
+energy change                      -0.00026145     0.00009000    F
+constrained gradient max            0.00917035     0.00100000    F
+constrained gradient rms            0.00270948     0.00066667    F
+gradient max                        0.00917035
+gradient rms                        0.00270948
+cart. step max                      0.02869454     0.01000000    F
+cart. step rms                      0.01099640     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.32500617    -1.19808899     0.31429895
+      2      S    -0.86883493     0.35629837     0.06235453
+      3     Ge     0.82015998    -0.86018917     1.13356951
+      4      H    -2.49055921    -1.54267445     1.76882438
+      5      H    -3.62900571    -0.71443314    -0.24038780
+      6      H    -1.91252250    -2.44864286    -0.41048263
+      7      H     2.06423830     0.09313887     1.12233146
+      8      H     1.05181043    -2.17380270     0.30137075
+      9      H     0.32281063    -1.18352818     2.59058315
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep6 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si    0.007081  0.004358  0.000653
+     2 S    -0.006670  0.002320 -0.002979
+     3 Ge    0.000880 -0.004406  0.001919
+     4 H    -0.000075 -0.000533  0.001086
+     5 H    -0.001224 -0.001131 -0.000023
+     6 H     0.000510 -0.001191 -0.000184
+     7 H     0.000815  0.001620 -0.000415
+     8 H    -0.000440 -0.000828 -0.001069
+     9 H    -0.000877 -0.000209  0.001011
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.12610E-03, dE(actual):    -0.18733E-03, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   6       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.22968137 Hartree
+energy change                      -0.00018733     0.00009000    F
+constrained gradient max            0.00709608     0.00100000    F
+constrained gradient rms            0.00247054     0.00066667    F
+gradient max                        0.00709608
+gradient rms                        0.00247054
+cart. step max                      0.03304446     0.01000000    F
+cart. step rms                      0.01258476     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.33921529    -1.20165300     0.30836141
+      2      S    -0.86604963     0.33766011     0.06188993
+      3     Ge     0.83544539    -0.85899431     1.13952367
+      4      H    -2.50211365    -1.54998551     1.75846642
+      5      H    -3.63871327    -0.70349878    -0.23412870
+      6      H    -1.94556696    -2.44874909    -0.42533516
+      7      H     2.06861013     0.10315244     1.12206227
+      8      H     1.08012151    -2.17228013     0.31724654
+      9      H     0.34057259    -1.17757398     2.59437592
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep7 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si    0.004219  0.003751 -0.000051
+     2 S    -0.006989  0.000997 -0.002461
+     3 Ge    0.003551 -0.004728  0.003250
+     4 H     0.000132  0.000252 -0.001115
+     5 H     0.000335 -0.002401  0.000947
+     6 H    -0.000008  0.000760  0.000715
+     7 H    -0.000299  0.000404 -0.000336
+     8 H    -0.000634  0.000792 -0.000011
+     9 H    -0.000305  0.000174 -0.000938
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.10248E-03, dE(actual):    -0.17623E-03, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   7       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.22985760 Hartree
+energy change                      -0.00017623     0.00009000    F
+constrained gradient max            0.00680345     0.00100000    F
+constrained gradient rms            0.00231222     0.00066667    F
+gradient max                        0.00680345
+gradient rms                        0.00231222
+cart. step max                      0.03654376     0.01000000    F
+cart. step rms                      0.01411603     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.35400174    -1.20863977     0.30324702
+      2      S    -0.86156156     0.31636069     0.06178384
+      3     Ge     0.84815588    -0.85613224     1.14374154
+      4      H    -2.51532012    -1.56254013     1.74960988
+      5      H    -3.64476278    -0.68369465    -0.22838293
+      6      H    -1.98211072    -2.45223307    -0.44249598
+      7      H     2.07087906     0.11475813     1.12100402
+      8      H     1.11112683    -2.17088451     0.33464377
+      9      H     0.36068597    -1.16891671     2.59931113
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep8 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si    0.001375  0.002062 -0.000390
+     2 S    -0.005246 -0.000041 -0.001430
+     3 Ge    0.004028 -0.003928  0.003333
+     4 H     0.000298  0.000812 -0.002504
+     5 H     0.001388 -0.002881  0.001388
+     6 H    -0.000255  0.002104  0.001315
+     7 H    -0.001318 -0.000785 -0.000144
+     8 H    -0.000598  0.002105  0.000898
+     9 H     0.000327  0.000553 -0.002466
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.86687E-04, dE(actual):    -0.16177E-03, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   8       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.23001938 Hartree
+energy change                      -0.00016177     0.00009000    F
+constrained gradient max            0.00508891     0.00100000    F
+constrained gradient rms            0.00209111     0.00066667    F
+gradient max                        0.00508891
+gradient rms                        0.00209111
+cart. step max                      0.04232740     0.01000000    F
+cart. step rms                      0.01678535     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.36950452    -1.21895989     0.29841281
+      2      S    -0.85549376     0.29199165     0.06094746
+      3     Ge     0.85993220    -0.85203302     1.14712019
+      4      H    -2.53037252    -1.58210040     1.74226855
+      5      H    -3.64710909    -0.65302419    -0.22244255
+      6      H    -2.02443812    -2.46012334    -0.46334703
+      7      H     2.07149646     0.13051801     1.11856070
+      8      H     1.14557939    -2.17082280     0.35398367
+      9      H     0.38300079    -1.15736826     2.60695851
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep9 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si   -0.000994 -0.000047 -0.000518
+     2 S    -0.001988 -0.000442 -0.000225
+     3 Ge    0.002749 -0.002259  0.002267
+     4 H     0.000299  0.000903 -0.002505
+     5 H     0.001599 -0.002264  0.001156
+     6 H    -0.000158  0.002231  0.001352
+     7 H    -0.001872 -0.001455  0.000100
+     8 H    -0.000353  0.002564  0.001305
+     9 H     0.000717  0.000770 -0.002932
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.85434E-04, dE(actual):    -0.14224E-03, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   9       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.23016162 Hartree
+energy change                      -0.00014224     0.00009000    F
+constrained gradient max            0.00295252     0.00100000    F
+constrained gradient rms            0.00160698     0.00066667    F
+gradient max                        0.00295252
+gradient rms                        0.00160698
+cart. step max                      0.02766061     0.01000000    F
+cart. step rms                      0.01139528     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.37805219    -1.22659198     0.29599297
+      2      S    -0.85143922     0.27705101     0.05915983
+      3     Ge     0.86625315    -0.84892815     1.14890845
+      4      H    -2.53917705    -1.59901232     1.73963186
+      5      H    -3.64573057    -0.62826924    -0.21883498
+      6      H    -2.05209873    -2.46758358    -0.47839545
+      7      H     2.07143151     0.14316162     1.11558197
+      8      H     1.16580471    -2.17290086     0.36615589
+      9      H     0.39609922    -1.14884875     2.61426176
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep10 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si   -0.001557 -0.001055 -0.000330
+     2 S     0.000383 -0.000036  0.000261
+     3 Ge    0.001009 -0.000833  0.000876
+     4 H     0.000130  0.000419 -0.001168
+     5 H     0.000910 -0.000953  0.000434
+     6 H     0.000114  0.001063  0.000698
+     7 H    -0.001479 -0.001011  0.000206
+     8 H    -0.000060  0.001777  0.000917
+     9 H     0.000549  0.000628 -0.001895
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.46390E-04, dE(actual):    -0.56753E-04, Trust radius:    0.400000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step  10       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -1.23021837 Hartree
+energy change                      -0.00005675     0.00009000    T
+constrained gradient max            0.00194133     0.00100000    F
+constrained gradient rms            0.00091723     0.00066667    F
+gradient max                        0.00194133
+gradient rms                        0.00091723
+cart. step max                      0.00743764     0.01000000    T
+cart. step rms                      0.00298552     0.00666667    T
+ 
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.37879284    -1.22837766     0.29588136
+      2      S    -0.85089931     0.27477855     0.05791042
+      3     Ge     0.86710143    -0.84774009     1.14942957
+      4      H    -2.53986972    -1.60551868     1.74015214
+      5      H    -3.64447337    -0.62083161    -0.21822234
+      6      H    -2.05809001    -2.47005564    -0.48317804
+      7      H     2.07212673     0.14730524     1.11364430
+      8      H     1.16796686    -2.17516734     0.36900419
+      9      H     0.39802104    -1.14631502     2.61784071
+ 
+Total System Charge             0.00000
+ 
+ *** GO1_GOStep11 ***
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si   -0.000905 -0.000817 -0.000035
+     2 S     0.000668  0.000382  0.000050
+     3 Ge    0.000288 -0.000321  0.000282
+     4 H    -0.000015 -0.000031 -0.000120
+     5 H     0.000194 -0.000194 -0.000123
+     6 H     0.000268  0.000075  0.000117
+     7 H    -0.000773 -0.000250  0.000167
+     8 H     0.000086  0.000810  0.000384
+     9 H     0.000189  0.000346 -0.000721
+ ----------------------------------------
+ Mulliken charges used for AMS results%charges...
+
+ dE(predicted):    -0.11886E-04, dE(actual):    -0.31132E-05, Trust radius:    0.400000, all in a.u.
+ 
+---------------------------------------------------------
+Geometry Convergence after Step  11       ** CONVERGED **
+---------------------------------------------------------
+current energy                               -1.23022148 Hartree
+energy change                      -0.00000311     0.00009000    T
+constrained gradient max            0.00093438     0.00100000    T
+constrained gradient rms            0.00040588     0.00066667    T
+gradient max                        0.00093438
+gradient rms                        0.00040588
+cart. step max                      0.00235246     0.01000000    T
+cart. step rms                      0.00092725     0.00666667    T
+ 
+Geometry optimization converged
+
+Optimized geometry:
+ 
+--------
+Geometry
+--------
+Formula: H6GeSSi
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1     Si    -2.37879284    -1.22837766     0.29588136
+      2      S    -0.85089931     0.27477855     0.05791042
+      3     Ge     0.86710143    -0.84774009     1.14942957
+      4      H    -2.53986972    -1.60551868     1.74015214
+      5      H    -3.64447337    -0.62083161    -0.21822234
+      6      H    -2.05809001    -2.47005564    -0.48317804
+      7      H     2.07212673     0.14730524     1.11364430
+      8      H     1.16796686    -2.17516734     0.36900419
+      9      H     0.39802104    -1.14631502     2.61784071
+ 
+Total System Charge             0.00000
+ 
+Performing a single point calculation on the final geometry ...
+
+ *** adf ***
+
+
+
+ ===========================
+ A T T A C H E D   F I L E S
+ ===========================
+  
+ RestartC:/SCMTMP/amstmp_ams_kid0.1927840800/GO1_GOStep11.rkf*** GO1_GOStep11 ***
+
+
+
+ ===============================
+ M O D E L   P A R A M E T E R S
+ ===============================
+  
+ DENSITY FUNCTIONAL POTENTIAL (scf)
+    LDA:                               PW92                                    == Not Default ==
+    Gradient Corrections:              PBEc PBEx                               == Not Default ==
+
+ SPIN  (restricted / unrestr.)
+    Molecule:                          Restricted                               
+    Fragments:                         Restricted                               
+
+ OTHER ASPECTS
+    Relativistic Corrections:          scalar (ZORA,MAPA)                       
+
+    Nuclear Charge Density Model:      Point Charge Nuclei                      
+    Core Treatment:                    Frozen Orbital(s)                        
+
+    Hyperfine or Zeeman Interaction:   ---                                      
+
+
+
+ ===============
+ G E O M E T R Y  ***  3D  Molecule  ***
+ ===============
+  
+
+ ATOMS
+ =====                            X Y Z                    CHARGE
+                                (Angstrom)             Nucl     +Core       At.Mass
+                       --------------------------    ----------------       -------
+    1  Si             -2.3788   -1.2284    0.2959     14.00      4.00       27.9769
+    2  S              -0.8509    0.2748    0.0579     16.00      6.00       31.9721
+    3  Ge              0.8671   -0.8477    1.1494     32.00      4.00       73.9212
+    4  H              -2.5399   -1.6055    1.7402      1.00      1.00        1.0078
+    5  H              -3.6445   -0.6208   -0.2182      1.00      1.00        1.0078
+    6  H              -2.0581   -2.4701   -0.4832      1.00      1.00        1.0078
+    7  H               2.0721    0.1473    1.1136      1.00      1.00        1.0078
+    8  H               1.1680   -2.1752    0.3690      1.00      1.00        1.0078
+    9  H               0.3980   -1.1463    2.6178      1.00      1.00        1.0078
+
+
+ FRAGMENTS
+ =========                                     Atoms in this Fragment     Cart. coord.s (Angstrom)
+                                               -------------------------------------------------------
+    1  Si                                                1  Si          -2.3788   -1.2284    0.2959
+    2  S                                                 2  S           -0.8509    0.2748    0.0579
+    3  Ge                                                3  Ge           0.8671   -0.8477    1.1494
+    4  H                                                 4  H           -2.5399   -1.6055    1.7402
+    5  H                                                 5  H           -3.6445   -0.6208   -0.2182
+    6  H                                                 6  H           -2.0581   -2.4701   -0.4832
+    7  H                                                 7  H            2.0721    0.1473    1.1136
+    8  H                                                 8  H            1.1680   -2.1752    0.3690
+    9  H                                                 9  H            0.3980   -1.1463    2.6178
+
+
+ Interatomic Distance Matrix (Angstrom)
+ --------------------------------------
+
+   1)     0.000
+   2)     2.157   0.000
+   3)     3.378   2.324   0.000
+   4)     1.501   3.036   3.540   0.000
+   5)     1.495   2.947   4.720   2.455   0.000
+   6)     1.501   3.047   3.722   2.434   2.451   0.000
+   7)     4.730   3.110   1.563   4.973   5.920   5.144   0.000
+   8)     3.672   3.190   1.569   3.994   5.091   3.350   2.601   0.000
+   9)     3.621   3.183   1.570   3.100   4.966   4.171   2.596   2.590   0.000
+
+ Min. Distance =    1.4951
+ Max. Distance =    5.9197
+
+
+
+ =====================================
+ S Y M M E T R Y ,   E L E C T R O N S
+ =====================================
+  
+ Symmetry: NOSYM
+
+ Irreducible Representations, including subspecies
+ -------------------------------------------------
+ A
+
+
+ Configuration of Valence Electrons
+ ==================================
+ ( determined in the SCF procedure )
+
+ Total:   20
+
+ Net Charge: 0 (Nuclei minus Electrons)
+
+ Aufbau principle for MO occupations will be applied through SCF cycle no.     150
+ Thereafter, the program will assign electrons to MOs that are spatially
+ similar to the occupied MOs in a "reference" cycle ("KeepOrbitals").
+ The reference cycle is always the PREVIOUS cycle: it will evolve with
+ the SCF procedure.
+ ***************************************************************************************************
+
+
+
+                                      ****************************************
+                                      *  B U I L D : (Fragments, Functions)  *
+                                      ****************************************
+  
+
+
+
+ =======
+ S F O s  ***  (Symmetrized Fragment Orbitals)  ***
+ =======
+  
+ SFOs are linear combinations of (valence) Fragment Orbitals (FOs), such that the SFOs transform as the
+ irreducible representations of the (molecular) symmetry group. Each SFO is therefore characterized by
+ an irrep of the molecule and by a few (or only one) generating FOs.
+ The SFOs constitute a symmetry-adapted basis for the Fock matrix. The MO eigenvector coefficients in
+ this basis provide a direct interpretation of the MOs in terms of Frontier Orbital Theory.
+
+ The SFOs are combined with auxiliary Core Functions (CFs) to ensure orthogonalization on the (frozen)
+ Core Orbitals (COs). The Core-orthogonalized SFOs (CSFOs) constitute the true Fock basis.
+
+ The FOs, and hence also the (C)SFOs are combinations of the elementary basis functions (BAS). The basis
+ functions that participate in the description of the SFOs depend on the irrep. The indices of the
+ involved functions are printed below for each irrep.
+ (The complete list of primitive basis functions is printed in another section)
+
+ Total nr. of (C)SFOs (summation over all irreps) :    69
+
+ NOTE: a (C)SFO that is defined as a combination of more than one FO is usually NOT normalized.
+
+
+
+                                       === A ===
+ Nr. of SFOs :   69
+ Cartesian basis functions that participate in this irrep (total number =    97) :
+      1     2     3     4     5    20    21    22    23    24
+     39    40    41    42    45    43    46    44    47    48
+     49    50    51    52    53     6     7     8    11     9
+     12    10    13    14    15    16    17    18    19    25
+     26    27    30    28    31    29    32    33    34    35
+     36    37    38    54    55    56    59    57    60    58
+     61    62    63    64    65    66    67    68    69    70
+     71    72    73    74    75    76    77    78    79    80
+     81    82    83    84    85    86    87    88    89    90
+     91    92    93    94    95    96    97
+
+    SFO  (index         Fragment          Generating    Expansion in Fragment Orbitals
+  indx  incl.CFs)   Occup   Orb.Energy   FragmentType  Coeff.   Orbital     on Fragment
+ --------------------------------------------------------------------------------------
+     1      26      2.000      -0.402 au  Si            1.00      1 S               1
+                        (     -10.926 eV)
+     2      27       --         0.260 au  Si            1.00      2 S               1
+                        (       7.065 eV)
+     3      28      0.667      -0.151 au  Si            1.00      1 P:x             1
+                        (      -4.122 eV)
+     4      29       --         0.162 au  Si            1.00      2 P:x             1
+                        (       4.404 eV)
+     5      30      0.667      -0.151 au  Si            1.00      1 P:y             1
+                        (      -4.122 eV)
+     6      31       --         0.162 au  Si            1.00      2 P:y             1
+                        (       4.404 eV)
+     7      32      0.667      -0.151 au  Si            1.00      1 P:z             1
+                        (      -4.122 eV)
+     8      33       --         0.162 au  Si            1.00      2 P:z             1
+                        (       4.404 eV)
+     9      34       --         0.365 au  Si            1.00      1 D:z2            1
+                        (       9.933 eV)
+    10      35       --         0.365 au  Si            1.00      1 D:x2-y2         1
+                        (       9.933 eV)
+    11      36       --         0.365 au  Si            1.00      1 D:xy            1
+                        (       9.933 eV)
+    12      37       --         0.365 au  Si            1.00      1 D:xz            1
+                        (       9.933 eV)
+    13      38       --         0.365 au  Si            1.00      1 D:yz            1
+                        (       9.933 eV)
+    14      39      2.000      -0.640 au  S             1.00      1 S               2
+                        (     -17.427 eV)
+    15      40       --         0.464 au  S             1.00      2 S               2
+                        (      12.615 eV)
+    16      41      1.333      -0.261 au  S             1.00      1 P:x             2
+                        (      -7.090 eV)
+    17      42       --         0.313 au  S             1.00      2 P:x             2
+                        (       8.510 eV)
+    18      43      1.333      -0.261 au  S             1.00      1 P:y             2
+                        (      -7.090 eV)
+    19      44       --         0.313 au  S             1.00      2 P:y             2
+                        (       8.510 eV)
+    20      45      1.333      -0.261 au  S             1.00      1 P:z             2
+                        (      -7.090 eV)
+    21      46       --         0.313 au  S             1.00      2 P:z             2
+                        (       8.510 eV)
+    22      47       --         0.423 au  S             1.00      1 D:z2            2
+                        (      11.510 eV)
+    23      48       --         0.423 au  S             1.00      1 D:x2-y2         2
+                        (      11.510 eV)
+    24      49       --         0.423 au  S             1.00      1 D:xy            2
+                        (      11.510 eV)
+    25      50       --         0.423 au  S             1.00      1 D:xz            2
+                        (      11.510 eV)
+    26      51       --         0.423 au  S             1.00      1 D:yz            2
+                        (      11.510 eV)
+    27      52      2.000      -0.433 au  Ge            1.00      1 S               3
+                        (     -11.793 eV)
+    28      53       --         0.264 au  Ge            1.00      2 S               3
+                        (       7.184 eV)
+    29      54      0.667      -0.143 au  Ge            1.00      1 P:x             3
+                        (      -3.900 eV)
+    30      55       --         0.155 au  Ge            1.00      2 P:x             3
+                        (       4.228 eV)
+    31      56      0.667      -0.143 au  Ge            1.00      1 P:y             3
+                        (      -3.900 eV)
+    32      57       --         0.155 au  Ge            1.00      2 P:y             3
+                        (       4.228 eV)
+    33      58      0.667      -0.143 au  Ge            1.00      1 P:z             3
+                        (      -3.900 eV)
+    34      59       --         0.155 au  Ge            1.00      2 P:z             3
+                        (       4.228 eV)
+    35      60       --         0.319 au  Ge            1.00      1 D:z2            3
+                        (       8.668 eV)
+    36      61       --         0.319 au  Ge            1.00      1 D:x2-y2         3
+                        (       8.668 eV)
+    37      62       --         0.319 au  Ge            1.00      1 D:xy            3
+                        (       8.668 eV)
+    38      63       --         0.319 au  Ge            1.00      1 D:xz            3
+                        (       8.668 eV)
+    39      64       --         0.319 au  Ge            1.00      1 D:yz            3
+                        (       8.668 eV)
+    40      65      1.000      -0.239 au  H             1.00      1 S               4
+                        (      -6.514 eV)
+    41      66       --         0.390 au  H             1.00      2 S               4
+                        (      10.618 eV)
+    42      67       --         0.405 au  H             1.00      1 P:x             4
+                        (      11.015 eV)
+    43      68       --         0.405 au  H             1.00      1 P:y             4
+                        (      11.015 eV)
+    44      69       --         0.405 au  H             1.00      1 P:z             4
+                        (      11.015 eV)
+    45      70      1.000      -0.239 au  H             1.00      1 S               5
+                        (      -6.514 eV)
+    46      71       --         0.390 au  H             1.00      2 S               5
+                        (      10.618 eV)
+    47      72       --         0.405 au  H             1.00      1 P:x             5
+                        (      11.015 eV)
+    48      73       --         0.405 au  H             1.00      1 P:y             5
+                        (      11.015 eV)
+    49      74       --         0.405 au  H             1.00      1 P:z             5
+                        (      11.015 eV)
+    50      75      1.000      -0.239 au  H             1.00      1 S               6
+                        (      -6.514 eV)
+    51      76       --         0.390 au  H             1.00      2 S               6
+                        (      10.618 eV)
+    52      77       --         0.405 au  H             1.00      1 P:x             6
+                        (      11.015 eV)
+    53      78       --         0.405 au  H             1.00      1 P:y             6
+                        (      11.015 eV)
+    54      79       --         0.405 au  H             1.00      1 P:z             6
+                        (      11.015 eV)
+    55      80      1.000      -0.239 au  H             1.00      1 S               7
+                        (      -6.514 eV)
+    56      81       --         0.390 au  H             1.00      2 S               7
+                        (      10.618 eV)
+    57      82       --         0.405 au  H             1.00      1 P:x             7
+                        (      11.015 eV)
+    58      83       --         0.405 au  H             1.00      1 P:y             7
+                        (      11.015 eV)
+    59      84       --         0.405 au  H             1.00      1 P:z             7
+                        (      11.015 eV)
+    60      85      1.000      -0.239 au  H             1.00      1 S               8
+                        (      -6.514 eV)
+    61      86       --         0.390 au  H             1.00      2 S               8
+                        (      10.618 eV)
+    62      87       --         0.405 au  H             1.00      1 P:x             8
+                        (      11.015 eV)
+    63      88       --         0.405 au  H             1.00      1 P:y             8
+                        (      11.015 eV)
+    64      89       --         0.405 au  H             1.00      1 P:z             8
+                        (      11.015 eV)
+    65      90      1.000      -0.239 au  H             1.00      1 S               9
+                        (      -6.514 eV)
+    66      91       --         0.390 au  H             1.00      2 S               9
+                        (      10.618 eV)
+    67      92       --         0.405 au  H             1.00      1 P:x             9
+                        (      11.015 eV)
+    68      93       --         0.405 au  H             1.00      1 P:y             9
+                        (      11.015 eV)
+    69      94       --         0.405 au  H             1.00      1 P:z             9
+                        (      11.015 eV)
+
+
+
+ ================================
+ (Slater-type)  F U N C T I O N S  ***  (Basis and Fit)  ***
+ ================================
+  
+
+ Atom Type    1  (Si)
+ ==============
+
+ Valence Basis Sets:   8
+ -----------------------
+   1 S   11.700000
+   2 S    4.650000
+   2 P    5.250000
+   3 S    1.250000
+   3 S    2.000000
+   3 P    0.850000
+   3 P    1.600000
+   3 D    1.750000
+
+ Frozen Core Shells
+ ------------------
+    S:  2
+    P:  1
+
+ Atom Type    2  (S)
+ ==============
+
+ Valence Basis Sets:   8
+ -----------------------
+   1 S   13.250000
+   2 S    5.350000
+   2 P    6.250000
+   3 S    1.600000
+   3 S    2.600000
+   3 P    1.150000
+   3 P    2.150000
+   3 D    2.100000
+
+ Frozen Core Shells
+ ------------------
+    S:  2
+    P:  1
+
+ Atom Type    3  (Ge)
+ ==============
+
+ Valence Basis Sets:  11
+ -----------------------
+   1 S   23.400000
+   2 S   12.050000
+   3 S    6.450000
+   2 P   12.350000
+   3 P    6.800000
+   3 D    4.090000
+   4 S    1.500000
+   4 S    2.600000
+   4 P    1.000000
+   4 P    2.000000
+   4 D    1.600000
+
+ Frozen Core Shells
+ ------------------
+    S:  3
+    P:  2
+    D:  1
+
+ Atom Type    4  (H)
+ ==============
+
+ Valence Basis Sets:   3
+ -----------------------
+   1 S    0.760000
+   1 S    1.280000
+   2 P    1.250000
+
+
+ BAS: List of all Elementary Cartesian Basis Functions
+ =====================================================
+
+ The numbering in the list below (to the right of the function characteristics) is referred
+ to in print-outs of MO eigenvectors and Mulliken populations in the BAS representation
+ (as contrasted to the SFO representation).
+
+ Notes:
+ 1. The functions are characterized by a polynomial prefactor (powers of x,y,z and r) and
+    an exponential decay factor alpha.
+ 2. Since the basis sets are specific for an atom TYPE, the individual functions occur on
+    all atoms of that type.
+ 3. The word 'Core' in the left margin signals that it is a Core Function (CF) : not a
+    degree of freedom in the valence set, but only used to ensure orthogonalization of
+    the other valence basis functions on the frozen Core Orbitals.
+
+
+ (power of) X  Y  Z  R     Alpha  on Atom
+            ==========     =====     ==========
+
+ Si                                   1
+                                  ---------------------------------------------------------------------------
+    Core    0  0  0  0    11.700      1
+    Core    0  0  0  1     4.650      2
+    Core    1  0  0  0     5.250      3
+    Core    0  1  0  0     5.250      4
+    Core    0  0  1  0     5.250      5
+            0  0  0  2     1.250      6
+            0  0  0  2     2.000      7
+            1  0  0  1     0.850      8
+            0  1  0  1     0.850      9
+            0  0  1  1     0.850     10
+            1  0  0  1     1.600     11
+            0  1  0  1     1.600     12
+            0  0  1  1     1.600     13
+            2  0  0  0     1.750     14
+            1  1  0  0     1.750     15
+            1  0  1  0     1.750     16
+            0  2  0  0     1.750     17
+            0  1  1  0     1.750     18
+            0  0  2  0     1.750     19
+
+ S                                    2
+                                  ---------------------------------------------------------------------------
+    Core    0  0  0  0    13.250     20
+    Core    0  0  0  1     5.350     21
+    Core    1  0  0  0     6.250     22
+    Core    0  1  0  0     6.250     23
+    Core    0  0  1  0     6.250     24
+            0  0  0  2     1.600     25
+            0  0  0  2     2.600     26
+            1  0  0  1     1.150     27
+            0  1  0  1     1.150     28
+            0  0  1  1     1.150     29
+            1  0  0  1     2.150     30
+            0  1  0  1     2.150     31
+            0  0  1  1     2.150     32
+            2  0  0  0     2.100     33
+            1  1  0  0     2.100     34
+            1  0  1  0     2.100     35
+            0  2  0  0     2.100     36
+            0  1  1  0     2.100     37
+            0  0  2  0     2.100     38
+
+ Ge                                   3
+                                  ---------------------------------------------------------------------------
+    Core    0  0  0  0    23.400     39
+    Core    0  0  0  1    12.050     40
+    Core    0  0  0  2     6.450     41
+    Core    1  0  0  0    12.350     42
+    Core    0  1  0  0    12.350     43
+    Core    0  0  1  0    12.350     44
+    Core    1  0  0  1     6.800     45
+    Core    0  1  0  1     6.800     46
+    Core    0  0  1  1     6.800     47
+    Core    2  0  0  0     4.090     48
+    Core    1  1  0  0     4.090     49
+    Core    1  0  1  0     4.090     50
+    Core    0  2  0  0     4.090     51
+    Core    0  1  1  0     4.090     52
+    Core    0  0  2  0     4.090     53
+            0  0  0  3     1.500     54
+            0  0  0  3     2.600     55
+            1  0  0  2     1.000     56
+            0  1  0  2     1.000     57
+            0  0  1  2     1.000     58
+            1  0  0  2     2.000     59
+            0  1  0  2     2.000     60
+            0  0  1  2     2.000     61
+            2  0  0  1     1.600     62
+            1  1  0  1     1.600     63
+            1  0  1  1     1.600     64
+            0  2  0  1     1.600     65
+            0  1  1  1     1.600     66
+            0  0  2  1     1.600     67
+
+ H                                    4    5    6    7    8    9
+                                  ---------------------------------------------------------------------------
+            0  0  0  0     0.760     68   73   78   83   88   93
+            0  0  0  0     1.280     69   74   79   84   89   94
+            1  0  0  0     1.250     70   75   80   85   90   95
+            0  1  0  0     1.250     71   76   81   86   91   96
+            0  0  1  0     1.250     72   77   82   87   92   97
+
+ Total number of charge fitting functions (nprimf)       673
+ Total number of Cartesian basis functions (naos)         97
+ Total number of Cartesian core functions  (ncos)         25
+
+ ***************************************************************************************************
+
+
+
+                                              ***********************
+                                              *  T E C H N I C A L  *
+                                              ***********************
+  
+
+
+
+ =============================================================
+ P A R A L L E L I Z A T I O N  and  V E C T O R I Z A T I O N
+ =============================================================
+  
+ Nr of parallel processes:                                1
+ Maximum vector length in NumInt loops:                 128
+
+
+
+ =====================
+ S C F   U P D A T E S
+ =====================
+  
+ Max. nr. of cycles:                               300
+ Convergence criterion:                              0.0000010000
+   secondary criterion:                              0.0010000000
+
+ Mix parameter (when DIIS does not apply):           0.2000000000
+ Mixed ADIIS+SDIIS will be used                  
+    Max number of expansion vectors:                10
+    Pure ADIIS when Max([F,P]) is above              0.1000000000
+    Pure SDIIS when Max([F,P]) is below              0.0010000000
+ Automatic ElectronSmearing (in case of problematic SCF convergence) disabled
+
+
+
+ =================
+ P R E C I S I O N  ***  (General: NumInt, NeglectFunctionTails, ...)  ***
+ =================
+  
+
+ NumInt:           Target precision:                 4.0000000000
+ -------           Initial precision:                4.0000000000
+                   Min. precision (optimization):    4.0000000000
+
+ Neglect Functions:          Basis functions:        0.1000000000E-05
+ ------------------          Fit functions:          0.1000000000E-05
+
+
+
+ ===========================
+ L I N E A R   S C A L I N G
+ ===========================
+  
+
+ Cut-off radii density fit:                        0.1000000000E-07
+ Overlap cut-off criterion AO matrix elements:     0.1000000000E-05
+ Cut-offs for Coulomb potential and fitted density:0.1000000000E-07
+ Cut-off criterion for Coulomb multipole terms:    0.1000000000E-07
+ Progressive Convergence parameter:                 0.000000000    
+
+ Number of elements of the density matrix on this node (used, total):      4753      4753
+
+
+
+ ===========================================
+ Numerical Integration : Fuzzy Cells (Becke)
+ ===========================================
+  
+ Becke grid quality: BASIC          
+  
+ Lebedev angular grid order:             min:   7 max:  17
+ Nr. of radial points:                   min:  35 max:  52
+
+ Total nr. of points:      27652
+ Nr. of blocks:              217
+ Block length:               128
+ Nr. of dummy points:        124
+
+
+ Test of Precision of the Numerical Integration Grid
+ ===================================================
+
+ Integral of the Total Core Density:                  48.00013915671570
+ Relative Error:                                       2.899E-06
+
+
+
+ ========================
+ Density Fitting (zlmFit)
+ ========================
+  
+ ZlmFit Fit Quality: BASIC          
+  
+ Max L-expansion:                        min:   3 max:   4
+ Nr. of radial interpolation points:     min:  30 max:  55
+
+
+
+ =====
+ S C F  ***  ScaSCF  ***
+ =====
+  
+ Initial density matrix is taken from previous geometry
+
+ CYCLE    1
+  ***********************************************************
+  ** : orbital data taken from :C:/SCMTMP/amstmp_ams_kid0.1927840800/GO1_GOStep11.rkf
+  ***********************************************************
+ SCF Error: norm([F,P])=      0.000000273606, max([F,P])=      0.000000086119
+ orbitals (Q,E):
+ ---------------
+ A :1...20           ( 2.00    -0.6616)  ( 2.00    -0.5242)  ( 2.00    -0.4778)  ( 2.00    -0.3403)
+                     ( 2.00    -0.3355)  ( 2.00    -0.3323)  ( 2.00    -0.3140)  ( 2.00    -0.2986)
+                     ( 2.00    -0.2787)  ( 2.00    -0.2241)  ( 0.00    -0.0619)  ( 0.00    -0.0355)
+                     ( 0.00    -0.0118)  ( 0.00    -0.0039)  ( 0.00     0.0115)  ( 0.00     0.0259)
+                     ( 0.00     0.0398)  ( 0.00     0.0803)  ( 0.00     0.1074)  ( 0.00     0.1084)
+
+ CYCLE    2
+  SDIIS (wt  0.000):  0.6101  0.3899
+ A-DIIS (wt  1.000):  0.8412  0.1588
+  DIIS coefficients:  0.8412  0.1588
+ SCF Error: norm([F,P])=      0.000000425743, max([F,P])=      0.000000132369
+ orbitals (Q,E):
+ ---------------
+ A :1...11           ( 2.00    -0.6616)  ( 2.00    -0.5242)  ( 2.00    -0.4778)  ( 2.00    -0.3403)
+                     ( 2.00    -0.3355)  ( 2.00    -0.3323)  ( 2.00    -0.3140)  ( 2.00    -0.2986)
+                     ( 2.00    -0.2787)  ( 2.00    -0.2241)  ( 0.00    -0.0619)
+
+ SCF CONVERGED
+
+ CYCLE    3
+ ***************************************************************************************************
+
+
+
+                                                *******************
+                                                *  R E S U L T S  *
+                                                *******************
+  
+ *** Using FIT density in Focky
+  SDIIS (wt  0.000):  0.2943 -0.5515  1.2573
+ A-DIIS (wt  1.000):  0.7394  0.0000  0.2606
+  DIIS coefficients:  0.7394  0.0000  0.2606
+ SCF Error: norm([F,P])=      0.000000249723, max([F,P])=      0.000000078644
+
+ Scaled ZORA Orbital Energies, per Irrep and Spin:
+ =================================================
+                        Occup              E (au)              E (eV)       Diff (eV) with prev. cycle
+                        -----      --------------------        ------       --------------------------
+ A
+               1        2.000     -0.66157278484443E+00       -18.002              -1.19E-08
+               2        2.000     -0.52423238753373E+00       -14.265               6.78E-08
+               3        2.000     -0.47783572682306E+00       -13.003              -7.20E-08
+               4        2.000     -0.34029089322338E+00        -9.260               6.29E-09
+               5        2.000     -0.33553988268590E+00        -9.131               3.26E-08
+               6        2.000     -0.33230486706299E+00        -9.042              -2.22E-08
+               7        2.000     -0.31396171129501E+00        -8.543              -1.27E-08
+               8        2.000     -0.29857362303098E+00        -8.125              -2.32E-08
+               9        2.000     -0.27874117268751E+00        -7.585              -1.52E-08
+              10        2.000     -0.22405762559212E+00        -6.097              -1.18E-08
+              11        0.000     -0.61914841291278E-01        -1.685
+              12        0.000     -0.35510609738652E-01        -0.966
+              13        0.000     -0.11794191956970E-01        -0.321
+              14        0.000     -0.38951772640763E-02        -0.106
+              15        0.000      0.11470205841577E-01         0.312
+              16        0.000      0.25949435291583E-01         0.706
+              17        0.000      0.39822472475599E-01         1.084
+              18        0.000      0.80328732510661E-01         2.186
+              19        0.000      0.10739936301139E+00         2.922
+              20        0.000      0.10843231239099E+00         2.951
+  
+ HOMO :       10 A                -0.22405762559212E+00
+ LUMO :       11 A                -0.61914841291278E-01
+  
+
+
+ Scaled ZORA Orbital Energies of the Core Orbitals:
+ ==================================================
+
+ (Note that the atoms are grouped by atomtype, see the labels, and may hence NOT be in input order)
+
+ AtomType  Orbital  Atom                   E (au)                        E (eV)
+ --------  -------  ----           --------------------        ----------------
+ Si          1S        1          -0.65588653203768E+02               -1784.758
+             2S        1          -0.50946653843747E+01                -138.633
+             2P        1          -0.34753771915510E+01                 -94.570
+ S           1S        2          -0.88345389033236E+02               -2404.000
+             2S        2          -0.77129842154991E+01                -209.881
+             2P        2          -0.56809283385312E+01                -154.586
+ Ge          1S        3          -0.40242296355059E+03              -10950.486
+             2S        3          -0.50305635489083E+02               -1368.886
+             3S        3          -0.61737636971805E+01                -167.997
+             2P        3          -0.43968598319699E+02               -1196.446
+             3P        3          -0.42387785230231E+01                -115.343
+             3D        3          -0.10692422316680E+01                 -29.096
+
+
+ Fit test: (difference of exact and fit density, squared integrated, result summed over spins)
+         Sum-of-Fragments:                             0.00000000000317
+         Orthogonalized Fragments:                     0.00072364954924
+         SCF:                                          0.00196800935615
+
+
+
+ ==========================
+ Electron Density at Nuclei
+ ==========================
+  
+ The electron density is calculated at points on a small sphere around the center of a nucleus.
+ The printed electron density is the average electron density on these points.
+ The radius of the sphere is the printed approximate finite nuclear radius.
+ Note: ZORA-4 density is used, which includes small component density
+
+         Atom        Nuclear Radius (Angstrom)             Electron Density (a.u.)
+         ----        -------------------------             -----------------------
+     1)   Si                0.0000401317                             1885.76116
+     2)   S                 0.0000416234                             2912.82551
+     3)   Ge                0.0000526701                            31131.99437
+     4)   H                 0.0000181514                                0.44013
+     5)   H                 0.0000181514                                0.44112
+     6)   H                 0.0000181514                                0.44086
+     7)   H                 0.0000181514                                0.41564
+     8)   H                 0.0000181514                                0.41544
+     9)   H                 0.0000181514                                0.41457
+
+
+
+ =======================================
+ M U L L I K E N   P O P U L A T I O N S
+ =======================================
+  
+ The survey below gives for each atom:
+ a) the total charge (Z minus electrons)
+ b) the net spin polarization (nr of electrons spin-A minus spin-B)
+ c) for each spin the atomic electron valence density (integrated) per L-value.
+
+ Atom              Charge    Spin density          S         P         D         F
+ ----              ------    ------------       ------    ------    ------    ------
+ 1 Si              0.7020                       1.1441    1.9438    0.2101    0.0000
+ 2 S              -0.3986                       1.9025    4.4445    0.0516    0.0000
+ 3 Ge              0.5728                       1.2470    2.0592    0.1210    0.0000
+ 4 H              -0.1709                       1.1360    0.0349    0.0000    0.0000
+ 5 H              -0.1825                       1.1467    0.0358    0.0000    0.0000
+ 6 H              -0.1666                       1.1323    0.0343    0.0000    0.0000
+ 7 H              -0.1319                       1.0916    0.0403    0.0000    0.0000
+ 8 H              -0.1125                       1.0729    0.0397    0.0000    0.0000
+ 9 H              -0.1118                       1.0721    0.0397    0.0000    0.0000
+
+ Populations of individual BAS functions
+ ----------------------------------------
+ 1 Si          -0.0023  0.0120  0.0176  0.0180  0.0193  0.2834  0.8509 -0.0092 -0.0053  0.0163
+                0.6042  0.6167  0.6661  0.0327  0.0441  0.0272  0.0303  0.0483  0.0274
+ 2 S           -0.0044 -0.0003  0.0243  0.0269  0.0303  0.7730  1.1341  0.4007  0.5450  0.7009
+                0.8240  0.8984  0.9941  0.0217  0.0207  0.0077  0.0052  0.0079 -0.0116
+ 3 Ge          -0.0012 -0.0019  0.0320 -0.0010 -0.0011 -0.0011  0.0191  0.0212  0.0210  0.0016
+                0.0020  0.0010  0.0002  0.0013  0.0011  0.3128  0.9053  0.0360  0.0479  0.0567
+                0.5871  0.6379  0.6356  0.0244  0.0295  0.0173  0.0087  0.0192  0.0149
+ 4 H            0.4619  0.6741  0.0057  0.0070  0.0222
+ 5 H            0.4686  0.6781  0.0187  0.0090  0.0081
+ 6 H            0.4554  0.6769  0.0066  0.0173  0.0104
+ 7 H            0.4340  0.6576  0.0179  0.0152  0.0072
+ 8 H            0.4102  0.6626  0.0064  0.0215  0.0117
+ 9 H            0.4112  0.6609  0.0080  0.0080  0.0237
+
+ Gross Charges per Atom (Z minus electrons)
+ ==========================================
+             0.7020   -0.3986    0.5728   -0.1709   -0.1825   -0.1666   -0.1319   -0.1125   -0.1118
+ Net Total: -0.00000000
+
+
+ Atom-Atom Population Matrix (off-diagonal elements not doubled)
+ ===============================================================
+
+     1 :     1.8282
+     2 :     0.3686    5.9496
+     3 :    -0.0283    0.2808    2.0423
+     4 :     0.3754   -0.0443   -0.0087    0.9156
+     5 :     0.3906   -0.0330    0.0028   -0.0283    0.8826
+     6 :     0.3751   -0.0451   -0.0067   -0.0420   -0.0316    0.9142
+     7 :    -0.0017   -0.0196    0.3861    0.0003   -0.0005    0.0001    0.8064
+     8 :    -0.0041   -0.0294    0.3793   -0.0017   -0.0002    0.0041   -0.0194    0.8084
+     9 :    -0.0058   -0.0291    0.3797    0.0047    0.0000   -0.0015   -0.0198   -0.0244    0.8079
+
+
+
+ =================================================
+ H I R S H F E L D   C H A R G E   A N A L Y S I S
+ =================================================
+  
+ For each fragment: the (numerical) integral of rho(scf) * rho(fragment)/rho(sum-of-fragments)
+ (nuclear charges are included, electrons are counted negative)
+
+ The fragments and their ordering are defined in the early G E O M E T R Y output section.
+ If you use single-atom fragments, this usually implies that all atoms of the same
+ chemical type are grouped together. This may not be the order in which you listed them
+ in the input file!
+
+  Fragment                       Charge
+ ------------------------------------------
+    1  Si                        0.2512
+    2  S                        -0.1806
+    3  Ge                        0.2679
+    4  H                        -0.0719
+    5  H                        -0.0639
+    6  H                        -0.0723
+    7  H                        -0.0408
+    8  H                        -0.0451
+    9  H                        -0.0447
+
+ Sum of these charges =         -0.00015219
+ (accuracy NumInt/Tails)
+
+
+
+ =============================
+ V O R O N O I   C H A R G E S
+ =============================
+  
+ For each atom: the (numerical) integral of the total electronic charge density in its Voronoi cell,
+ i.e. the region of space that is closer to that atom than to any other atom.
+ (cf. Wigner-Seitz cells in crystals)
+
+ Within the Voronoi cell the subintegrals over the atomic sphere and the remaining part are evaluated
+ separately to give the numbers of electrons (negative charge) in these regions.
+ The net total charge in the cell (including the nuclear charge) is also given.
+
+ Values are provided for
+    a) the Initial (sum-of-fragments) density
+    b) the Orthogonalized-Fragments density
+    c) the SCF density
+    d) the Voronoi Deformation Density (VDD): the difference SCF-Initial for the complete atomic cell
+
+  Atom                Initial                    OrthFrag                   SCF
+             Sphere RestCell NetTotal   Sphere RestCell NetTotal   Sphere RestCell NetTotal      VDD
+ -------     ------------------------   ------------------------   ------------------------    -----
+    1 Si     -8.997   -3.113    1.891   -9.037   -3.348    1.616   -8.997   -2.873    2.131    0.240
+    2 S     -10.355   -5.724   -0.079  -10.444   -5.637   -0.080  -10.352   -5.972   -0.324   -0.245
+    3 Ge    -23.785   -6.268    1.947  -23.822   -6.469    1.709  -23.795   -6.027    2.178    0.231
+    4 H      -0.106   -1.494   -0.600   -0.151   -1.352   -0.504   -0.150   -1.510   -0.660   -0.059
+    5 H      -0.106   -1.527   -0.633   -0.153   -1.397   -0.550   -0.150   -1.529   -0.679   -0.045
+    6 H      -0.106   -1.511   -0.617   -0.151   -1.371   -0.523   -0.150   -1.521   -0.671   -0.054
+    7 H      -0.105   -1.525   -0.630   -0.149   -1.412   -0.561   -0.140   -1.507   -0.646   -0.016
+    8 H      -0.105   -1.534   -0.639   -0.147   -1.409   -0.556   -0.140   -1.524   -0.664   -0.025
+    9 H      -0.105   -1.534   -0.639   -0.147   -1.404   -0.551   -0.140   -1.526   -0.665   -0.027
+ ---------------------------------------------------------------------------------------------------
+ Total NetCharge:              -0.000                     -0.000                     -0.000    0.000
+ (accuracy NumInt/Tails)
+
+ Remark: the 'NetTotal' Voronoi charges often do not match the Mulliken and/or Hirshfeld charges very
+ well. This is caused by the fact that chemically different atoms are not treated in accordance with
+ their relative sizes. (Voronoi cells are defined by boundary planes halfway between the atoms.)
+ However, the CHANGES in charge, comparing 'Initial' to 'SCF' for instance, do give a fair indication
+ of the flow of charge caused by the relaxation from sum-of-fragments to self-consistency.
+
+ Warning: the absolute accuracy of the VDD charges obtained using the Fuzzy Cells (Becke) integration
+ scheme is much poorer than the one obtained with an 'equivalent' Voronoi integration grid. 
+
+
+
+ =================================================================
+ M U L T I P O L E   D E R I V E D   C H A R G E   A N A L Y S I S
+ =================================================================
+
+ This charge analysis uses the atomic multipoles (obtained from the fitted density) up to some level X,
+ and reconstructs these multipoles exactly (up to level X) by distributing charges over all atoms.
+ This is achieved by using Lagrange multipliers and a weight function to keep the multipoles local.
+
+ Dummy atoms can be included (by setting INCDUM in MDC-block to 1) to obtain a fractional charge.
+ This is generally useful and necessary only for small symmetrical molecules, when there are not
+ enough degrees of freedom to reconstruct the multipoles.
+
+ Since the atomic multipoles are reconstructed up to level X,
+ the molecular multipoles are represented also up to level X.
+ The recommended level is to reconstruct up to quadrupole : -> MDC-q charges.
+
+ See: M. Swart, P.Th. van Duijnen, J.G. Snijders, J.Comput.Chem., (2001), p. 79-88.
+
+ ------------------------------------------------------------- 
+ Atomic electronic multipole moments from SCF equations (a.u.)
+ ------------------------------------------------------------- 
+
+   atom        charge        dip-x     dip-y     dip-z      quad-xx   quad-xy   quad-xz   quad-yy   quad-yz   quad-zz
+ --------------------------------------------------------------------------------------------------------------------
+    1 Si     1.131978    -0.334867 -0.283739  0.038770    -0.128645 -0.230259  0.068689 -0.024507 -0.017488  0.153151
+    2 S     -0.276042    -0.063225 -0.314741  0.131318     1.264366  0.343466  0.525422  0.087354 -0.543097 -1.351720
+    3 Ge     1.120205     0.289535 -0.159097  0.172459    -0.190325  0.234346 -0.187807  0.150948  0.092714  0.039376
+    4 H     -0.352192    -0.025716 -0.037381  0.084745    -0.161206  0.002095 -0.030785 -0.209875 -0.089636  0.371081
+    5 H     -0.340098    -0.091663  0.025654 -0.030258     0.226472 -0.151511  0.122415 -0.096686 -0.063490 -0.129786
+    6 H     -0.352128     0.000288 -0.087644 -0.042232    -0.145381 -0.096281 -0.043227  0.184727  0.182205 -0.039346
+    7 H     -0.306145     0.097463  0.074969  0.001867     0.135395  0.191127 -0.016306  0.050529 -0.008306 -0.185924
+    8 H     -0.312914     0.026416 -0.102167 -0.054114    -0.152718 -0.047606 -0.034829  0.211668  0.181321 -0.058950
+    9 H     -0.312663    -0.027505 -0.026029  0.112808    -0.112401  0.042455 -0.131233 -0.186838 -0.063609  0.299239
+
+ --------------------------------------- 
+ Multipole derived atomic charges (a.u.)
+ --------------------------------------- 
+
+ The MDC-m charges are just the Monopole terms in the multipole expansion, while for the MDC-d charges
+ also the Dipoles are reconstructed. The usually preferred charges are the MDC-q charges.
+ These reconstruct the Monopoles, Dipoles and Quadrupoles (both atomic AND molecular).
+
+        Atom    Level:     MDC-m        MDC-d        MDC-q
+ ---------------------------------------------------------
+     1     Si           1.131978     0.861166     2.404657
+     2     S           -0.276042    -0.453110    -1.121122
+     3     Ge           1.120205     0.852284     3.141926
+     4     H           -0.352192    -0.215977    -0.664606
+     5     H           -0.340098    -0.228862    -0.569800
+     6     H           -0.352128    -0.221088    -0.680308
+     7     H           -0.306145    -0.207812    -0.759044
+     8     H           -0.312914    -0.194445    -0.875865
+     9     H           -0.312663    -0.192155    -0.875837
+
+ ------------------------------------------------ 
+ Average absolute deviations in atomic multipoles
+ ------------------------------------------------ 
+
+ Stated here are the average differences between the atomic multipoles
+ and the reconstructed atomic multipoles (from the distributed charges).
+ If these values are not zero, this means there are not enough degrees of freedom,
+ to be able to reconstruct the atomic multipoles. (This usually happens only
+ for small and/or highly symmetric molecules). If this is the case, one could add
+ dummy atoms as extra point charges (and setting INCDUM in MDC-block to 1).
+
+ Level:                                 MDC-d        MDC-q
+ ---------------------------------------------------------
+ Charge   (a.u.)                       0.0000       0.0000
+ Dipole   (Debye)                      0.0000       0.0764
+ Quad.    (a.u.)                       0.2929       0.0029
+
+ --------------------------------------- 
+ Represented molecular multipole moments
+ --------------------------------------- 
+
+ Given here are the Molecular multipole moments from the atomic charges, and from the Fit Density.
+ Note that the atomic charges represent the latter, NOT the ones from the Exact density.
+
+            Q (a.u.)             Dipole moment (Debye)                                          Quadrupole moment (a.u.)
+                                 x         y         z              xx        xy        xz        yy        yz        zz
+------------------------------------------------------------------------------------------------------------------------
+MDC-m         0.0000        1.1907    1.0775   -0.1771         -2.3262   -3.2288    0.5474   -0.0190    0.8007    2.3451
+MDC-d         0.0000        0.8621   -1.2359    0.8786         -0.5939   -0.0450    0.2934   -0.1729   -0.7689    0.7668
+MDC-q         0.0000        0.8574   -0.1293    0.4478          3.8431   -0.4585    1.3943   -3.7685    1.1842   -0.0746
+ 
+Fit.Dens.     0.0000        0.8621   -1.2359    0.8786          1.9136    0.5930    1.2862   -0.8911   -0.9963   -1.0225
+
+
+
+ =============
+ Dipole Moment  ***  (Debye)  ***
+ =============
+  
+ Vector   :         0.84480587     -1.27342853      0.88941765
+ Magnitude:         1.76815750
+
+ This molecular dipole moment is calculated with analytic integration
+
+
+
+ =========================================
+ Quadrupole Moment (Buckingham convention)  ***  (a.u.)  ***
+ =========================================
+  
+      quad-xx        quad-xy        quad-xz        quad-yy        quad-yz        quad-zz
+      1.90180631     0.77906061     1.42697702    -0.87676585    -1.20630694    -1.02504045
+
+ This molecular quadrupole moment is calculated with analytic integration
+
+
+
+ ===========================
+ B O N D I N G   E N E R G Y  ***  (decomposition)  ***
+ ===========================
+  
+*** IMPORTANT NOTE ***
+
+The bond energy is computed as an energy difference between molecule and
+fragments. In particular when the fragments are single atoms, they are usually
+computed as SPHERICALLY SYMMETRIC and SPIN-RESTRICTED. Obviously, this usually
+does NOT represent the true atomic groundstate.
+
+To obtain the 'real' bond energy, (atomic) correction terms must be applied
+for the true (multiplet) fragment ground state. See ref: E.J.Baerends,
+V.Branchadell, M.Sodupe, Chem.Phys.Lett.265 (1997) 481
+
+General theoretical background on the bond energy decomposition scheme used
+here (Morokuma-Ziegler) can be found in the review paper:
+F.M. Bickelhaupt and E.J. Baerends,
+"Kohn-Sham Density Functional Theory: Predicting and Understanding Chemistry"
+In: Rev. Comput. Chem.; Lipkowitz, K. B. and Boyd, D. B., Eds.;
+Wiley-VCH: New York, 2000, Vol. 15, 1-86.
+
+Symbols used in the Bickelhaupt-Baerends (BB) paper are given below to make
+the direct connection to that paper, where detailed explanations can be found
+on the meaning of the various terms.
+
+
+                                                   hartree              eV         kcal/mol           kJ/mol
+                                      --------------------     -----------       ----------      -----------
+
+Pauli Repulsion
+  Kinetic (Delta T^0):                  10.227710278236774        278.3102          6417.99         26852.85
+  Delta V^Pauli Coulomb:                -5.899529135208193       -160.5344         -3702.01        -15489.21
+  Delta V^Pauli LDA-XC:                 -1.349776629152824        -36.7293          -847.00         -3543.84
+  Delta V^Pauli GGA-Exchange:            0.076034919139563          2.0690            47.71           199.63
+  Delta V^Pauli GGA-Correlation:        -0.023320061017693         -0.6346           -14.63           -61.23
+                                      --------------------     -----------       ----------      -----------
+  Total Pauli Repulsion:                 3.031119371997627         82.4810          1902.06          7958.20
+ (Total Pauli Repulsion =
+  Delta E^Pauli in BB paper)
+
+Steric Interaction
+  Pauli Repulsion (Delta E^Pauli):       3.031119371997627         82.4810          1902.06          7958.20
+  Electrostatic Interaction:            -0.778535403674582        -21.1850          -488.54         -2044.04
+ (Electrostatic Interaction =
+  Delta V_elstat in the BB paper)
+                                      --------------------     -----------       ----------      -----------
+  Total Steric Interaction:              2.252583968323045         61.2959          1413.52          5914.16
+ (Total Steric Interaction =
+  Delta E^0 in the BB paper)
+
+Orbital Interactions
+  A:                                    -3.482753099393657        -94.7705         -2185.46         -9143.97
+                                      --------------------     -----------       ----------      -----------
+  Total Orbital Interactions:           -3.482753099393651        -94.7705         -2185.46         -9143.97
+
+Alternative Decomposition Orb.Int.
+  Kinetic:                              -8.486550955952939       -230.9308         -5325.39        -22281.44
+  Coulomb:                               4.830668403638909        131.4492          3031.29         12682.92
+  XC:                                    0.173129452920380          4.7111           108.64           454.55
+                                      --------------------     -----------       ----------      -----------
+  Total Orbital Interactions:           -3.482753099393650        -94.7705         -2185.46         -9143.97
+
+  Residu (E=Steric+OrbInt+Res):         -0.000052351974072         -0.0014            -0.03            -0.14
+
+Total Bonding Energy:                   -1.230221483044679        -33.4760          -771.98         -3229.95
+
+
+Summary of Bonding Energy (energy terms are taken from the energy decomposition above)
+======================================================================================
+
+  Electrostatic Energy:                 -0.778535403674582        -21.1850          -488.54         -2044.04
+  Kinetic Energy:                        1.741159322283835         47.3794          1092.59          4571.41
+  Coulomb (Steric+OrbInt) Energy:       -1.068913083543356        -29.0866          -670.75         -2806.43
+  XC Energy:                            -1.123932318110574        -30.5838          -705.28         -2950.88
+                                      --------------------     -----------       ----------      -----------
+  Total Bonding Energy:                 -1.230221483044678        -33.4760          -771.98         -3229.95
+
+
+Correction terms (incorporated in energies above; only for test purposes):
+
+1. Indication of fit-quality: 1st-order fit-correction used in the energy (hartree):  -0.0012398374
+2. Electrostatic (Fit correction):   0.0000000000
+
+Scaled ZORA energy correction, not included in bonding energy (hartree):           -0.0000060696
+ NOTE: This scaled ZORA energy correction should only be used to compare two calculations
+ in which the only difference in the calculation is the electron configuration.
+ Then the difference in energy of this term should be added to the difference in energy of
+ the two electron configurations.
+ This term should not be used otherwise.
+ In practice it is useful only for core excitation energy calculations.
+
+
+
+ =========================================
+ F R A G M E N T   E N E R G Y   T E R M S  ***  (summed over all fragments)  ***
+ =========================================
+  
+
+The energy terms below are (parts of) the Total Energy of the fragments from which the molecule
+ is built.
+
+Exchange and Correlation
+  Exchange LDA:                       -116.531204399034365      -3170.9754        -73124.44       -305952.63
+  Exchange GGA:                         -7.942534091507691       -216.1273         -4984.02        -20853.12
+  Correlation LDA:                      -5.372163451433601       -146.1840         -3371.08        -14104.61
+  Correlation GGA:                       2.703144771479658         73.5563          1696.25          7097.11
+                                      --------------------     -----------       ----------      -----------
+  Total XC:                           -127.142757170495997      -3459.7305        -79783.29       -333813.26
+
+
+
+ =======================================================
+ S F O   P O P U L A T I O N S ,   M O   A N A L Y S I S
+ =======================================================
+  
+ A Mulliken population analysis is performed on (input-)selected MOs. All populations refer to SFOs.
+ BAS populations may have been printed directly after the SCF part.
+
+
+                                       === A ===
+
+
+ SFO contributions (%) per orbital
+ (multiplication by the orbital occupation yields the SFO Gross Populations)
+
+ Orb.:        1      2      3      4      5      6      7      8      9     10     11     12     13     14
+ occup:     2.00   2.00   2.00   2.00   2.00   2.00   2.00   2.00   2.00   2.00   0.00   0.00   0.00   0.00
+ CF+SFO     ----   ----   ----   ----   ----   ----   ----   ----   ----   ----   ----   ----   ----   ----
+ ------
+     26:    7.63   7.68  42.25   0.06  -0.00   0.04  -0.00  -0.05   0.04   0.00  -0.25   2.38   9.46   1.18
+     27:   -0.52   0.08  -0.00   0.02  -0.00  -0.01  -0.00  -0.03   0.04  -0.00  -0.18  -0.20  -6.19  -1.49
+     28:    1.76  -0.38   0.42  10.59   1.33   0.33   1.95  13.15   0.16   0.00   0.05  35.32   0.44  13.35
+     29:   -0.59  -0.26  -0.02   0.03  -0.06  -0.03   0.11   2.00   0.15   0.02  -0.04   3.50  -0.03  -1.04
+     30:    1.27   0.30   1.18   1.91   1.37  15.83   3.12   0.39   4.35   0.00   2.69  11.05  14.60   6.31
+     31:   -0.32  -0.00  -0.11  -0.16  -0.14   1.08   0.13   0.18   1.02   0.05   0.55   0.66   1.93  -0.55
+     32:    0.02   0.02   0.09   4.33  10.00   1.76  16.49   0.92   0.78   0.01   0.73  -0.02   1.28   2.82
+     35:    0.01   0.02   0.00  -0.00   0.01   0.03   0.17   0.34   1.07   0.66   0.81   0.16   0.35   1.32
+     36:    0.46   0.06   0.22   0.27   0.02   0.08   0.02   1.10   0.01  -0.00   0.28   3.27   0.00   1.10
+     37:    0.00   0.01   0.01   0.04   0.10   0.08   0.01   0.38   0.26   0.47   0.03   0.34   0.40   1.51
+     38:    0.01   0.01   0.00   0.04   0.14   0.25   0.65   0.00   0.00   1.31   0.10   0.01   0.33   0.47
+     39:   75.46   2.96  11.61   0.48   0.00   0.01   0.00   0.44   4.40   0.00   2.73   0.71   0.68  -0.01
+     40:    0.08  -0.03  -0.21   0.01   0.00   0.00  -0.00   0.00  -0.11  -0.00  -2.78  -3.45  -0.23  -0.01
+     41:    0.01   5.87   1.95   0.03   0.05  26.58   0.04  20.79   1.49   6.44  12.64   7.78   9.52   0.41
+     42:    0.00  -0.68  -0.18   0.00   0.01  -0.06   0.00   0.34   0.00  -0.01  -1.04  -0.57  -2.23  -0.28
+     43:    2.04  -0.00   2.58   7.66   2.32   0.04   0.19   5.26  39.60  14.08   6.87   4.98   1.42   4.43
+     44:   -0.10   0.03  -0.14  -0.11  -0.03   0.02  -0.00   0.03   0.01  -0.02  -0.43  -0.77   0.04  -1.39
+     45:    0.42   0.66   0.11   2.33   7.02   1.12   0.51   0.15  11.70  62.54   5.25   0.03   0.09   0.34
+     48:    0.01   0.01   0.00   0.31   0.04   0.01   0.04   0.02  -0.02   0.01   0.43   0.10   0.48   1.50
+     49:    0.02   0.31   0.09   0.00   0.01   0.15   0.03   0.44  -0.00   0.00   0.68   0.83   1.36   0.01
+     52:    7.45  51.23   3.99   0.03   0.00   0.10   0.00   0.01   0.09  -0.00  12.57   3.79   3.00   3.44
+     53:   -0.45  -0.02  -0.03   0.01   0.00   0.02   0.00  -0.02   0.03   0.00  -2.90  -3.84  -1.29  -2.15
+     54:    1.56  -0.22   0.05  12.94   1.33   0.29   0.85  10.43   3.69   0.00  24.14   1.79  19.37   0.18
+     56:    0.46   0.07   0.88  10.01   7.21   8.73   1.67   1.07   4.18   0.00   7.12   0.72   0.47  18.08
+     58:    0.53   0.02   0.36   0.52  15.76   4.34  10.54   0.14   2.46   0.01   8.40   0.82   1.07   4.60
+     60:    0.03  -0.01   0.00   0.07   0.01   0.15   0.17   0.18   0.09   0.84   0.03   0.01   0.21   1.84
+     62:    0.13  -0.03   0.17   0.11   0.00  -0.01   0.04   0.78  -0.00   0.31   0.23   0.97   1.44   1.04
+     65:    0.44   0.79  10.51   2.63   9.76   6.62  16.62   0.39   6.16   3.48   0.65   0.29   0.68   5.52
+     67:    0.01   0.00   0.00   0.16   0.00   0.01   0.00   0.09  -0.00   0.01   0.05   1.37   0.06   0.83
+     70:    0.42   1.97  10.57  14.73   0.09   6.09   0.39  19.29   3.95   0.08   0.37   0.26  12.30   3.99
+     71:   -0.20  -0.07  -0.64   0.33   0.00   0.17   0.01   0.30   0.11  -0.00  -0.31  -1.17   0.32  -3.64
+     75:    0.40   0.91  10.16   0.10   8.42   9.94  19.26   0.01   3.78   4.29   0.24   0.21   0.43   5.65
+     77:   -0.00   0.02   0.08   0.08   0.00   0.00   0.00   0.11   0.02   0.03   0.05   1.45   0.03   0.36
+     80:    0.57  10.71   0.49  22.79   0.50   2.23   0.00  17.39   0.01   0.01   2.85   5.11  19.63   0.36
+     81:   -0.16  -0.64  -0.06   0.42   0.01   0.04   0.00   0.47   0.01   0.00   0.11   0.68  -3.63  -0.97
+     85:    0.67   8.65   1.48   2.11  21.01   3.64  10.43   0.55   3.43   2.32   4.07   4.92   1.64  11.79
+     86:   -0.15  -0.76  -0.17   0.03   0.33   0.12   0.36   0.04   0.02   0.01   0.22   0.83   0.37  -1.78
+     89:    0.01   0.28   0.04   0.05  -0.03   0.18  -0.01   0.00   0.08   0.00   0.09   0.38   0.17   1.43
+     90:    0.68   8.50   1.55   4.72  12.73   7.16  11.75   1.36   3.42   2.28   4.02   4.89   1.14  14.35
+     91:   -0.15  -0.75  -0.18   0.05   0.14   0.20   0.41   0.07   0.01   0.01   0.20   0.76   0.30  -1.91
+     92:   -0.00   0.16   0.01   0.05  -0.01   0.06   0.04   0.05   0.06  -0.00   0.45   0.58   1.09   0.08
+
+
+ Summation over all MOs, multiplied by occupation: Total SFO Gross Populations in this Irrep
+ ===========================================================================================
+
+    -0.00    0.00    0.00    0.01    0.01   -0.00    0.00    0.00    0.00    0.00   -0.00   -0.00
+     0.01   -0.00    0.01   -0.00    0.01   -0.00    0.01    0.00    0.00    0.00   -0.00    0.00
+     0.00    1.15   -0.01    0.59    0.03    0.59    0.03    0.69    0.01    0.04    0.05    0.04
+     0.03    0.05    1.91   -0.01    1.27   -0.01    1.48   -0.01    1.73   -0.00    0.01    0.01
+     0.02    0.01    0.01    1.26   -0.01    0.62    0.02    0.69    0.02    0.69    0.02    0.03
+     0.02    0.03    0.02    0.02    1.15   -0.01    0.01    0.01    0.02    1.15    0.00    0.02
+     0.01    0.01    1.15   -0.01    0.01    0.02    0.01    1.09    0.00    0.02    0.02    0.01
+     1.09   -0.00    0.01    0.02    0.01    1.08   -0.00    0.01    0.01    0.02
+
+
+
+ List of selected MOs, ordered by energy, with the most significant SFO gross populations
+ ========================================================================================
+
+ Each percentage contribution in the table below corres ponds to the indicated SFO.
+ In general, a SFO may be a linear combination of several Fragment Orbitals on the same,
+ or on symmetry-related Fragments. Only the first 'member' of such a combination is
+ specified here. A full definition of all SFOs is given in an earlier part of the output.
+ The numbering of the SFOs in this table does NOT include the Core Orbitals, and starts
+ from one for each symmetry representation, as in the SFO definition list earlier.
+
+       E(eV)  Occ       MO           %     SFO (first member)   E(eV)  Occ   Fragment
+ -------------------------------------------------------------------------------------
+
+     -18.002  2.00     1 A         75.46%     1 S             -17.427  2.00     2 S
+                                    7.63%     1 S             -10.926  2.00     1 Si
+                                    7.45%     1 S             -11.793  2.00     3 Ge
+                                    2.04%     1 P:y            -7.090  1.33     2 S
+                                    1.76%     1 P:x            -4.122  0.67     1 Si
+                                    1.56%     1 P:x            -3.900  0.67     3 Ge
+                                    1.27%     1 P:y            -4.122  0.67     1 Si
+     -14.265  2.00     2 A         51.23%     1 S             -11.793  2.00     3 Ge
+                                   10.71%     1 S              -6.514  1.00     7 H
+                                    8.65%     1 S              -6.514  1.00     8 H
+                                    8.50%     1 S              -6.514  1.00     9 H
+                                    7.68%     1 S             -10.926  2.00     1 Si
+                                    5.87%     1 P:x            -7.090  1.33     2 S
+                                    2.96%     1 S             -17.427  2.00     2 S
+                                    1.97%     1 S              -6.514  1.00     5 H
+     -13.003  2.00     3 A         42.25%     1 S             -10.926  2.00     1 Si
+                                   11.61%     1 S             -17.427  2.00     2 S
+                                   10.57%     1 S              -6.514  1.00     5 H
+                                   10.51%     1 S              -6.514  1.00     4 H
+                                   10.16%     1 S              -6.514  1.00     6 H
+                                    3.99%     1 S             -11.793  2.00     3 Ge
+                                    2.58%     1 P:y            -7.090  1.33     2 S
+                                    1.95%     1 P:x            -7.090  1.33     2 S
+                                    1.55%     1 S              -6.514  1.00     9 H
+                                    1.48%     1 S              -6.514  1.00     8 H
+                                    1.18%     1 P:y            -4.122  0.67     1 Si
+      -9.260  2.00     4 A         22.79%     1 S              -6.514  1.00     7 H
+                                   14.73%     1 S              -6.514  1.00     5 H
+                                   12.94%     1 P:x            -3.900  0.67     3 Ge
+                                   10.59%     1 P:x            -4.122  0.67     1 Si
+                                   10.01%     1 P:y            -3.900  0.67     3 Ge
+                                    7.66%     1 P:y            -7.090  1.33     2 S
+                                    4.72%     1 S              -6.514  1.00     9 H
+                                    4.33%     1 P:z            -4.122  0.67     1 Si
+                                    2.63%     1 S              -6.514  1.00     4 H
+                                    2.33%     1 P:z            -7.090  1.33     2 S
+                                    2.11%     1 S              -6.514  1.00     8 H
+                                    1.91%     1 P:y            -4.122  0.67     1 Si
+      -9.131  2.00     5 A         21.01%     1 S              -6.514  1.00     8 H
+                                   15.76%     1 P:z            -3.900  0.67     3 Ge
+                                   12.73%     1 S              -6.514  1.00     9 H
+                                   10.00%     1 P:z            -4.122  0.67     1 Si
+                                    9.76%     1 S              -6.514  1.00     4 H
+                                    8.42%     1 S              -6.514  1.00     6 H
+                                    7.21%     1 P:y            -3.900  0.67     3 Ge
+                                    7.02%     1 P:z            -7.090  1.33     2 S
+                                    2.32%     1 P:y            -7.090  1.33     2 S
+                                    1.37%     1 P:y            -4.122  0.67     1 Si
+                                    1.33%     1 P:x            -4.122  0.67     1 Si
+                                    1.33%     1 P:x            -3.900  0.67     3 Ge
+      -9.042  2.00     6 A         26.58%     1 P:x            -7.090  1.33     2 S
+                                   15.83%     1 P:y            -4.122  0.67     1 Si
+                                    9.94%     1 S              -6.514  1.00     6 H
+                                    8.73%     1 P:y            -3.900  0.67     3 Ge
+                                    7.16%     1 S              -6.514  1.00     9 H
+                                    6.62%     1 S              -6.514  1.00     4 H
+                                    6.09%     1 S              -6.514  1.00     5 H
+                                    4.34%     1 P:z            -3.900  0.67     3 Ge
+                                    3.64%     1 S              -6.514  1.00     8 H
+                                    2.23%     1 S              -6.514  1.00     7 H
+                                    1.76%     1 P:z            -4.122  0.67     1 Si
+                                    1.12%     1 P:z            -7.090  1.33     2 S
+                                    1.08%     2 P:y             4.404  0.00     1 Si
+      -8.543  2.00     7 A         19.26%     1 S              -6.514  1.00     6 H
+                                   16.62%     1 S              -6.514  1.00     4 H
+                                   16.49%     1 P:z            -4.122  0.67     1 Si
+                                   11.75%     1 S              -6.514  1.00     9 H
+                                   10.54%     1 P:z            -3.900  0.67     3 Ge
+                                   10.43%     1 S              -6.514  1.00     8 H
+                                    3.12%     1 P:y            -4.122  0.67     1 Si
+                                    1.95%     1 P:x            -4.122  0.67     1 Si
+                                    1.67%     1 P:y            -3.900  0.67     3 Ge
+      -8.125  2.00     8 A         20.79%     1 P:x            -7.090  1.33     2 S
+                                   19.29%     1 S              -6.514  1.00     5 H
+                                   17.39%     1 S              -6.514  1.00     7 H
+                                   13.15%     1 P:x            -4.122  0.67     1 Si
+                                   10.43%     1 P:x            -3.900  0.67     3 Ge
+                                    5.26%     1 P:y            -7.090  1.33     2 S
+                                    2.00%     2 P:x             4.404  0.00     1 Si
+                                    1.36%     1 S              -6.514  1.00     9 H
+                                    1.10%     1 D:xy            9.933  0.00     1 Si
+                                    1.07%     1 P:y            -3.900  0.67     3 Ge
+      -7.585  2.00     9 A         39.60%     1 P:y            -7.090  1.33     2 S
+                                   11.70%     1 P:z            -7.090  1.33     2 S
+                                    6.16%     1 S              -6.514  1.00     4 H
+                                    4.40%     1 S             -17.427  2.00     2 S
+                                    4.35%     1 P:y            -4.122  0.67     1 Si
+                                    4.18%     1 P:y            -3.900  0.67     3 Ge
+                                    3.95%     1 S              -6.514  1.00     5 H
+                                    3.78%     1 S              -6.514  1.00     6 H
+                                    3.69%     1 P:x            -3.900  0.67     3 Ge
+                                    3.43%     1 S              -6.514  1.00     8 H
+                                    3.42%     1 S              -6.514  1.00     9 H
+                                    2.46%     1 P:z            -3.900  0.67     3 Ge
+                                    1.49%     1 P:x            -7.090  1.33     2 S
+                                    1.07%     1 D:x2-y2         9.933  0.00     1 Si
+                                    1.02%     2 P:y             4.404  0.00     1 Si
+      -6.097  2.00    10 A         62.54%     1 P:z            -7.090  1.33     2 S
+                                   14.08%     1 P:y            -7.090  1.33     2 S
+                                    6.44%     1 P:x            -7.090  1.33     2 S
+                                    4.29%     1 S              -6.514  1.00     6 H
+                                    3.48%     1 S              -6.514  1.00     4 H
+                                    2.32%     1 S              -6.514  1.00     8 H
+                                    2.28%     1 S              -6.514  1.00     9 H
+                                    1.31%     1 D:yz            9.933  0.00     1 Si
+      -1.685  0.00    11 A         24.14%     1 P:x            -3.900  0.67     3 Ge
+                                   12.64%     1 P:x            -7.090  1.33     2 S
+                                   12.57%     1 S             -11.793  2.00     3 Ge
+                                    8.40%     1 P:z            -3.900  0.67     3 Ge
+                                    7.12%     1 P:y            -3.900  0.67     3 Ge
+                                    6.87%     1 P:y            -7.090  1.33     2 S
+                                    5.25%     1 P:z            -7.090  1.33     2 S
+                                    4.07%     1 S              -6.514  1.00     8 H
+                                    4.02%     1 S              -6.514  1.00     9 H
+                                   -2.90%     2 S               7.184  0.00     3 Ge
+                                    2.85%     1 S              -6.514  1.00     7 H
+                                   -2.78%     2 S              12.615  0.00     2 S
+                                    2.73%     1 S             -17.427  2.00     2 S
+                                    2.69%     1 P:y            -4.122  0.67     1 Si
+                                   -1.04%     2 P:x             8.510  0.00     2 S
+      -0.966  0.00    12 A         35.32%     1 P:x            -4.122  0.67     1 Si
+                                   11.05%     1 P:y            -4.122  0.67     1 Si
+                                    7.78%     1 P:x            -7.090  1.33     2 S
+                                    5.11%     1 S              -6.514  1.00     7 H
+                                    4.98%     1 P:y            -7.090  1.33     2 S
+                                    4.92%     1 S              -6.514  1.00     8 H
+                                    4.89%     1 S              -6.514  1.00     9 H
+                                   -3.84%     2 S               7.184  0.00     3 Ge
+                                    3.79%     1 S             -11.793  2.00     3 Ge
+                                    3.50%     2 P:x             4.404  0.00     1 Si
+                                   -3.45%     2 S              12.615  0.00     2 S
+                                    3.27%     1 D:xy            9.933  0.00     1 Si
+                                    2.38%     1 S             -10.926  2.00     1 Si
+                                    1.79%     1 P:x            -3.900  0.67     3 Ge
+                                    1.45%     1 P:x            11.015  0.00     6 H
+                                    1.37%     1 P:x            11.015  0.00     4 H
+                                   -1.17%     2 S              10.618  0.00     5 H
+      -0.321  0.00    13 A         19.63%     1 S              -6.514  1.00     7 H
+                                   19.37%     1 P:x            -3.900  0.67     3 Ge
+                                   14.60%     1 P:y            -4.122  0.67     1 Si
+                                   12.30%     1 S              -6.514  1.00     5 H
+                                    9.52%     1 P:x            -7.090  1.33     2 S
+                                    9.46%     1 S             -10.926  2.00     1 Si
+                                   -6.19%     2 S               7.065  0.00     1 Si
+                                   -3.63%     2 S              10.618  0.00     7 H
+                                    3.00%     1 S             -11.793  2.00     3 Ge
+                                   -2.23%     2 P:x             8.510  0.00     2 S
+                                    1.93%     2 P:y             4.404  0.00     1 Si
+                                    1.64%     1 S              -6.514  1.00     8 H
+                                    1.44%     1 D:xy            8.668  0.00     3 Ge
+                                    1.42%     1 P:y            -7.090  1.33     2 S
+                                    1.36%     1 D:xy           11.510  0.00     2 S
+                                   -1.29%     2 S               7.184  0.00     3 Ge
+                                    1.28%     1 P:z            -4.122  0.67     1 Si
+                                    1.14%     1 S              -6.514  1.00     9 H
+                                    1.09%     1 P:x            11.015  0.00     9 H
+                                    1.07%     1 P:z            -3.900  0.67     3 Ge
+      -0.106  0.00    14 A         18.08%     1 P:y            -3.900  0.67     3 Ge
+                                   14.35%     1 S              -6.514  1.00     9 H
+                                   13.35%     1 P:x            -4.122  0.67     1 Si
+                                   11.79%     1 S              -6.514  1.00     8 H
+                                    6.31%     1 P:y            -4.122  0.67     1 Si
+                                    5.65%     1 S              -6.514  1.00     6 H
+                                    5.52%     1 S              -6.514  1.00     4 H
+                                    4.60%     1 P:z            -3.900  0.67     3 Ge
+                                    4.43%     1 P:y            -7.090  1.33     2 S
+                                    3.99%     1 S              -6.514  1.00     5 H
+                                   -3.64%     2 S              10.618  0.00     5 H
+                                    3.44%     1 S             -11.793  2.00     3 Ge
+                                    2.82%     1 P:z            -4.122  0.67     1 Si
+                                   -2.15%     2 S               7.184  0.00     3 Ge
+                                   -1.91%     2 S              10.618  0.00     9 H
+                                    1.84%     1 D:z2            8.668  0.00     3 Ge
+                                   -1.78%     2 S              10.618  0.00     8 H
+                                    1.51%     1 D:xz            9.933  0.00     1 Si
+                                    1.50%     1 D:x2-y2        11.510  0.00     2 S
+                                   -1.49%     2 S               7.065  0.00     1 Si
+                                    1.43%     1 P:z            11.015  0.00     8 H
+                                   -1.39%     2 P:y             8.510  0.00     2 S
+                                    1.32%     1 D:x2-y2         9.933  0.00     1 Si
+                                    1.18%     1 S             -10.926  2.00     1 Si
+                                    1.10%     1 D:xy            9.933  0.00     1 Si
+                                    1.04%     1 D:xy            8.668  0.00     3 Ge
+                                   -1.04%     2 P:x             4.404  0.00     1 Si
+       0.312  0.00    15 A         35.50%     1 P:z            -4.122  0.67     1 Si
+                                   17.03%     1 P:z            -3.900  0.67     3 Ge
+                                   10.15%     1 S              -6.514  1.00     6 H
+                                    8.47%     1 S              -6.514  1.00     8 H
+                                    8.46%     1 S              -6.514  1.00     4 H
+                                    5.95%     1 S              -6.514  1.00     9 H
+                                   -5.34%     2 S              10.618  0.00     6 H
+                                   -5.19%     2 S              10.618  0.00     4 H
+                                    5.07%     1 P:y            -4.122  0.67     1 Si
+                                    3.99%     1 P:y            -3.900  0.67     3 Ge
+                                   -3.27%     2 S              10.618  0.00     8 H
+                                    3.17%     1 D:yz            9.933  0.00     1 Si
+                                    3.09%     1 D:z2            9.933  0.00     1 Si
+                                   -2.71%     2 S              10.618  0.00     9 H
+                                    2.26%     1 D:xz           11.510  0.00     2 S
+                                    2.19%     1 P:z            11.015  0.00     5 H
+                                    1.54%     1 P:x            -3.900  0.67     3 Ge
+                                    1.26%     1 P:x            -4.122  0.67     1 Si
+       0.706  0.00    16 A         20.50%     1 S              -6.514  1.00     4 H
+                                   16.64%     1 S              -6.514  1.00     6 H
+                                   15.43%     1 P:y            -4.122  0.67     1 Si
+                                   13.09%     1 S             -10.926  2.00     1 Si
+                                    8.94%     1 P:y            -3.900  0.67     3 Ge
+                                   -8.79%     2 S               7.065  0.00     1 Si
+                                    6.14%     1 S              -6.514  1.00     5 H
+                                    4.06%     1 S              -6.514  1.00     8 H
+                                    3.27%     1 P:z            -4.122  0.67     1 Si
+                                    3.19%     2 P:y             4.228  0.00     3 Ge
+                                    2.66%     1 S              -6.514  1.00     9 H
+                                    2.32%     1 D:z2            9.933  0.00     1 Si
+                                    2.28%     1 P:x            -4.122  0.67     1 Si
+                                    2.03%     1 P:z            -3.900  0.67     3 Ge
+                                    1.90%     1 D:xy            9.933  0.00     1 Si
+                                    1.80%     1 P:x            -3.900  0.67     3 Ge
+                                   -1.75%     2 S              10.618  0.00     8 H
+                                   -1.71%     2 S              10.618  0.00     4 H
+                                   -1.58%     2 P:x             8.510  0.00     2 S
+                                   -1.27%     2 S              10.618  0.00     9 H
+                                    1.20%     1 P:y            11.015  0.00     5 H
+                                    1.12%     2 S              10.618  0.00     5 H
+                                    1.03%     1 P:y            11.015  0.00     7 H
+       1.084  0.00    17 A         30.79%     1 P:z            -3.900  0.67     3 Ge
+                                   18.06%     1 P:z            -4.122  0.67     1 Si
+                                   13.29%     1 S              -6.514  1.00     9 H
+                                   10.27%     1 S              -6.514  1.00     8 H
+                                    6.66%     1 P:y            -3.900  0.67     3 Ge
+                                    6.29%     1 S              -6.514  1.00     6 H
+                                   -5.44%     2 S              10.618  0.00     9 H
+                                   -4.99%     2 S              10.618  0.00     8 H
+                                    4.21%     1 P:y            -4.122  0.67     1 Si
+                                    4.19%     1 P:z            -7.090  1.33     2 S
+                                    3.47%     1 S              -6.514  1.00     4 H
+                                    3.33%     1 P:x            -3.900  0.67     3 Ge
+                                   -3.20%     2 S              10.618  0.00     6 H
+                                    2.81%     1 P:z            11.015  0.00     7 H
+                                   -2.68%     2 P:z             8.510  0.00     2 S
+                                   -2.30%     2 S              10.618  0.00     4 H
+                                    1.88%     1 P:z            11.015  0.00     5 H
+                                    1.55%     1 D:yz            8.668  0.00     3 Ge
+                                    1.32%     1 P:y            11.015  0.00     9 H
+                                    1.20%     1 D:yz            9.933  0.00     1 Si
+                                   -1.17%     2 P:z             4.228  0.00     3 Ge
+                                    1.15%     1 D:xz            8.668  0.00     3 Ge
+                                    1.03%     1 P:y            -7.090  1.33     2 S
+       2.186  0.00    18 A         23.37%     1 S              -6.514  1.00     7 H
+                                   17.99%     1 S              -6.514  1.00     5 H
+                                   16.17%     1 P:y            -3.900  0.67     3 Ge
+                                   13.97%     1 P:x            -4.122  0.67     1 Si
+                                   13.21%     1 P:x            -3.900  0.67     3 Ge
+                                    8.61%     1 P:y            -4.122  0.67     1 Si
+                                   -5.96%     2 S              10.618  0.00     7 H
+                                   -5.33%     2 S              10.618  0.00     5 H
+                                   -3.94%     2 P:y             4.228  0.00     3 Ge
+                                   -3.56%     2 P:x             4.404  0.00     1 Si
+                                   -3.12%     2 P:x             4.228  0.00     3 Ge
+                                    2.97%     1 P:z            -4.122  0.67     1 Si
+                                    2.41%     1 S             -10.926  2.00     1 Si
+                                    1.88%     1 P:y            11.015  0.00     9 H
+                                    1.66%     1 D:yz            9.933  0.00     1 Si
+                                    1.51%     1 D:z2            9.933  0.00     1 Si
+                                    1.45%     1 P:z            11.015  0.00     8 H
+                                    1.42%     1 P:z            11.015  0.00     6 H
+                                    1.36%     1 P:y            11.015  0.00     4 H
+                                    1.32%     1 P:x            -7.090  1.33     2 S
+                                    1.29%     1 S              -6.514  1.00     8 H
+                                    1.20%     1 D:yz            8.668  0.00     3 Ge
+                                    1.20%     1 P:x            11.015  0.00     8 H
+                                   -1.18%     2 P:x             8.510  0.00     2 S
+                                    1.10%     1 P:x            11.015  0.00     7 H
+                                    1.05%     1 S              -6.514  1.00     9 H
+                                    1.03%     1 D:z2            8.668  0.00     3 Ge
+       2.922  0.00    19 A         43.71%     2 P:y             4.228  0.00     3 Ge
+                                   20.03%     2 P:x             4.228  0.00     3 Ge
+                                   18.80%     2 P:x             4.404  0.00     1 Si
+                                    6.56%     2 P:y             4.404  0.00     1 Si
+                                   -3.14%     1 S              -6.514  1.00     8 H
+                                    2.64%     1 P:y            11.015  0.00     8 H
+                                    2.46%     1 P:x            11.015  0.00     5 H
+                                    1.99%     1 D:x2-y2         9.933  0.00     1 Si
+                                    1.97%     1 D:x2-y2        11.510  0.00     2 S
+                                    1.36%     1 D:xz           11.510  0.00     2 S
+                                    1.09%     1 P:y            11.015  0.00     6 H
+       2.951  0.00    20 A         68.27%     2 P:z             4.228  0.00     3 Ge
+                                   26.93%     2 P:z             4.404  0.00     1 Si
+                                   -3.80%     1 S              -6.514  1.00     9 H
+                                    3.65%     1 P:z            11.015  0.00     9 H
+                                   -1.66%     2 P:z             8.510  0.00     2 S
+                                    1.64%     1 P:z            -3.900  0.67     3 Ge
+                                    1.44%     1 P:z            -4.122  0.67     1 Si
+                                    1.34%     1 P:z            11.015  0.00     4 H
+                                   -1.31%     1 S              -6.514  1.00     4 H
+       3.067  0.00    21 A         42.86%     2 P:x             4.228  0.00     3 Ge
+                                   18.21%     2 P:y             4.404  0.00     1 Si
+                                   18.13%     2 P:y             4.228  0.00     3 Ge
+                                    7.13%     2 P:x             4.404  0.00     1 Si
+                                   -5.88%     1 S              -6.514  1.00     7 H
+                                    4.79%     1 D:x2-y2         8.668  0.00     3 Ge
+                                   -4.61%     2 S              10.618  0.00     7 H
+                                    3.87%     1 D:xy           11.510  0.00     2 S
+                                    3.58%     1 P:x            11.015  0.00     7 H
+                                    3.24%     1 P:x            -3.900  0.67     3 Ge
+                                    2.31%     1 P:y            -3.900  0.67     3 Ge
+                                    2.23%     1 P:x            -7.090  1.33     2 S
+                                    1.37%     1 S              -6.514  1.00     5 H
+                                    1.30%     1 D:yz            8.668  0.00     3 Ge
+                                   -1.22%     2 S              10.618  0.00     5 H
+                                    1.05%     1 P:y            11.015  0.00     8 H
+
+ Energy gradients wrt nuclear displacements
+ ==========================================
+
+     Atom      Cartesian (a.u./angstrom)
+                 X         Y         Z
+ ----------------------------------------
+     1 Si   -0.000904 -0.000817 -0.000035
+     2 S     0.000668  0.000382  0.000050
+     3 Ge    0.000288 -0.000321  0.000282
+     4 H    -0.000015 -0.000031 -0.000120
+     5 H     0.000194 -0.000194 -0.000123
+     6 H     0.000268  0.000075  0.000117
+     7 H    -0.000773 -0.000250  0.000167
+     8 H     0.000086  0.000810  0.000384
+     9 H     0.000189  0.000346 -0.000721
+ ----------------------------------------
+
+
+
+ =======================================================================
+ Electrostatic potential at the Nuclei due to electrons and other nuclei
+ =======================================================================
+  
+         Atom                  Potential
+         ----                  ---------
+     1)   Si                 49.40833642
+     2)   S                  59.48371834
+     3)   Ge                158.26948955
+     4)   H                   1.10459073
+     5)   H                   1.10105484
+     6)   H                   1.10562248
+     7)   H                   1.05264362
+     8)   H                   1.05500557
+     9)   H                   1.05562308
+ Mulliken charges used for AMS results%charges...
+
+
+    =====================
+     CALCULATION RESULTS
+    =====================
+
+Energy (hartree)            -1.23022148
+
+Gradients (hartree/bohr)
+  Index   Atom            d/dx            d/dy            d/dz
+      1     Si   -0.0004786262   -0.0004324500   -0.0000186472
+      2      S    0.0003535353    0.0002023253    0.0000264507
+      3     Ge    0.0001523915   -0.0001696952    0.0001493560
+      4      H   -0.0000079519   -0.0000165115   -0.0000636682
+      5      H    0.0001023962   -0.0001027999   -0.0000652133
+      6      H    0.0001419001    0.0000397512    0.0000617981
+      7      H   -0.0004090317   -0.0001323549    0.0000881575
+      8      H    0.0000453841    0.0004288169    0.0002034350
+      9      H    0.0001000025    0.0001829180   -0.0003816686
+
+
+--------------
+Atomic charges
+--------------
+  Index   Atom    Charge
+      1     Si    0.7020
+      2      S   -0.3986
+      3     Ge    0.5728
+      4      H   -0.1709
+      5      H   -0.1825
+      6      H   -0.1666
+      7      H   -0.1319
+      8      H   -0.1125
+      9      H   -0.1118
+
+
+Dipole moment vector    (Debye):     0.84480587   -1.27342853    0.88941765
+              magnitude (Debye):     1.76815750
+
+
+-----------------------
+Molecular orbitals info
+-----------------------
+n orbitals:               69
+n spin:                    1
+
+HOMO (eV):              -6.0969
+LUMO (eV):              -1.6848
+HOMO-LUMO gap (eV):      4.4121
+
+   Index   Energy (eV)    Occupation
+      69       47.9272         0.000       
+      68       45.5720         0.000       
+      67       43.8696         0.000       
+      66       41.3715         0.000       
+      65       40.7679         0.000       
+      64       34.7922         0.000       
+      63       33.4650         0.000       
+      62       32.0644         0.000       
+      61       29.6783         0.000       
+      60       29.2597         0.000       
+      59       28.5035         0.000       
+      58       26.9161         0.000       
+      57       26.1616         0.000       
+      56       25.2784         0.000       
+      55       24.4060         0.000       
+      54       23.4230         0.000       
+      53       23.2152         0.000       
+      52       22.5921         0.000       
+      51       20.3804         0.000       
+      50       19.7996         0.000       
+      49       19.7419         0.000       
+      48       19.2478         0.000       
+      47       18.4340         0.000       
+      46       18.0048         0.000       
+      45       17.6461         0.000       
+      44       16.5398         0.000       
+      43       15.8201         0.000       
+      42       15.6215         0.000       
+      41       15.2957         0.000       
+      40       14.9274         0.000       
+      39       14.3852         0.000       
+      38       14.0962         0.000       
+      37       13.9239         0.000       
+      36       13.7423         0.000       
+      35       13.4591         0.000       
+      34       13.2151         0.000       
+      33       12.9426         0.000       
+      32       10.6300         0.000       
+      31       10.3664         0.000       
+      30        9.9092         0.000       
+      29        7.5672         0.000       
+      28        7.2600         0.000       
+      27        6.9630         0.000       
+      26        5.6882         0.000       
+      25        5.2807         0.000       
+      24        4.6065         0.000       
+      23        4.0032         0.000       
+      22        3.9575         0.000       
+      21        3.0674         0.000       
+      20        2.9506         0.000       
+      19        2.9225         0.000       
+      18        2.1859         0.000       
+      17        1.0836         0.000       
+      16        0.7061         0.000       
+      15        0.3121         0.000       
+      14       -0.1060         0.000       
+      13       -0.3209         0.000       
+      12       -0.9663         0.000       
+      11       -1.6848         0.000 < LUMO
+      10       -6.0969         2.000 < HOMO
+       9       -7.5849         2.000       
+       8       -8.1246         2.000       
+       7       -8.5433         2.000       
+       6       -9.0425         2.000       
+       5       -9.1305         2.000       
+       4       -9.2598         2.000       
+       3      -13.0026         2.000       
+       2      -14.2651         2.000       
+       1      -18.0023         2.000       
+
+AMS application finished. Exiting.
+NORMAL TERMINATION
+     Total cpu time:      25.77
+  Total system time:       2.31
+ Total elapsed time:      31.28

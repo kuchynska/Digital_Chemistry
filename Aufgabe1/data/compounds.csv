@@ -1,0 +1,69 @@
+id,formula,smiles,class
+01_silane,SiH4,[SiH4],parent hydrosilane
+02_disilane,Si2H6,[SiH3][SiH3],linear parent hydrosilane
+03_trisilane,Si3H8,[SiH3][SiH2][SiH3],linear parent hydrosilane
+04_n_tetrasilane,n-Si4H10,[SiH3][SiH2][SiH2][SiH3],linear parent hydrosilane
+05_isotetrasilane,iso-Si4H10,[SiH3][SiH]([SiH3])[SiH3],branched parent hydrosilane
+06_n_pentasilane,n-Si5H12,[SiH3][SiH2][SiH2][SiH2][SiH3],linear parent hydrosilane
+07_neopentasilane,neo-Si5H12,[SiH3][Si]([SiH3])([SiH3])[SiH3],branched parent hydrosilane
+08_cyclopentasilane,cyclo-Si5H10,[SiH2]1[SiH2][SiH2][SiH2][SiH2]1,cyclic parent hydrosilane
+09_n_hexasilane,n-Si6H14,[SiH3][SiH2][SiH2][SiH2][SiH2][SiH3],linear parent hydrosilane
+10_cyclohexasilane,cyclo-Si6H12,[SiH2]1[SiH2][SiH2][SiH2][SiH2][SiH2]1,cyclic parent hydrosilane
+11_n_heptasilane,n-Si7H16,[SiH3][SiH2][SiH2][SiH2][SiH2][SiH2][SiH3],linear parent hydrosilane
+12_n_octasilane,Si8H18,[SiH3][SiH2][SiH2][SiH2][SiH2][SiH2][SiH2][SiH3],assumed n-octasilane; Table 8 omits isomer descriptor
+13_trisilylamine,N(SiH3)3,N([SiH3])([SiH3])[SiH3],nitrogen-functionalized
+14_trisdisilanylamine,N(SiH2SiH3)3,N([SiH2][SiH3])([SiH2][SiH3])[SiH2][SiH3],nitrogen-functionalized
+15_tetraethyldiaminodisilane,Et2NSiH2SiH2NEt2,CCN(CC)[SiH2][SiH2]N(CC)CC,nitrogen-functionalized
+16_bis_diethylamino_disilane,SiH3SiH(NEt2)2,[SiH3][SiH](N(CC)CC)N(CC)CC,nitrogen-functionalized
+17_tetraisopropyldiaminodisilane,iPr2NSiH2SiH2NiPr2,CC(C)N(C(C)C)[SiH2][SiH2]N(C(C)C)C(C)C,nitrogen-functionalized
+18_silylphosphine,H3SiPH2,[SiH3]P,phosphorus-functionalized
+19_trisilylphosphine,P(SiH3)3,P([SiH3])([SiH3])[SiH3],phosphorus-functionalized
+20_disilyl_ether,O(SiH3)2,[SiH3]O[SiH3],oxygen-functionalized
+21_disilyl_sulfide,S(SiH3)2,[SiH3]S[SiH3],sulfur-functionalized
+22_disilyl_selenide,Se(SiH3)2,[SiH3][Se][SiH3],selenium-functionalized
+23_disilyl_telluride,Te(SiH3)2,[SiH3][Te][SiH3],tellurium-functionalized
+24_tetrasilylpentasilane_2244,"2,2,4,4-tetrasilylpentasilane (Si9H20)",[SiH3][Si]([SiH3])([SiH3])[SiH2][Si]([SiH3])([SiH3])[SiH3],branched perhydrosilane
+25_tetrasilyltetrasilane_2233,"2,2,3,3-tetrasilyltetrasilane (Si8H18)",[SiH3][Si]([SiH3])([SiH3])[Si]([SiH3])([SiH3])[SiH3],branched perhydrosilane
+26_hexasilylpentasilane_223344,"2,2,3,3,4,4-hexasilylpentasilane (Si11H24)",[SiH3][Si]([SiH3])([SiH3])[Si]([SiH3])([SiH3])[Si]([SiH3])([SiH3])[SiH3],branched perhydrosilane
+27_silylamine,H3SiNH2,[SiH3]N,Si-N precursor
+28_disilylamine,HN(SiH3)2,[SiH3]N[SiH3],Si-N precursor
+29_cyclotrisilazane_model,(SiH2NH)3 cyclic model,[SiH2]1N[SiH2]N[SiH2]N1,PHPS cyclic trimer model
+30_silylarsine,H3SiAsH2,[SiH3][AsH2],Si-As precursor
+31_disilylarsane,HAs(SiH3)2,[SiH3][AsH][SiH3],Si-As precursor
+32_trisilylarsane,As(SiH3)3,[As]([SiH3])([SiH3])[SiH3],Si-As precursor
+33_silylgermane,H3GeSiH3,[GeH3][SiH3],Si-Ge precursor
+34_bis_germylsilane,(H3Ge)2SiH2,[SiH2]([GeH3])[GeH3],Si-Ge precursor
+35_tris_germylsilane,(H3Ge)3SiH,[SiH]([GeH3])([GeH3])[GeH3],Si-Ge precursor
+36_tetragermylsilane,(H3Ge)4Si,[Si]([GeH3])([GeH3])([GeH3])[GeH3],Si-Ge precursor
+37_tetrasilylgermane,Ge(SiH3)4,[Ge]([SiH3])([SiH3])([SiH3])[SiH3],Si-Ge precursor
+38_chlorosilane,H3SiCl,[SiH3]Cl,halohydrosilane
+39_dichlorosilane,H2SiCl2,[SiH2](Cl)Cl,halohydrosilane
+40_trichlorosilane,HSiCl3,[SiH](Cl)(Cl)Cl,halohydrosilane
+41_bromosilane,H3SiBr,[SiH3]Br,halohydrosilane
+42_iodosilane,H3SiI,[SiH3]I,halohydrosilane
+43_trifluorosilylsilane,F3SiSiH3,F[Si](F)(F)[SiH3],halohydrosilane
+44_methylsilane,MeSiH3,C[SiH3],alkylhydrosilane
+45_ethylsilane,EtSiH3,CC[SiH3],alkylhydrosilane
+46_dimethylsilane,Me2SiH2,C[SiH2]C,alkylhydrosilane
+47_diethylsilane,Et2SiH2,CC[SiH2]CC,alkylhydrosilane
+48_methyldisilane,MeSiH2SiH3,C[SiH2][SiH3],alkylhydrosilane
+49_ethyldisilane,EtSiH2SiH3,CC[SiH2][SiH3],alkylhydrosilane
+50_disilylmethane,H2C(SiH3)2,[SiH3]C[SiH3],carbon-bridged hydrosilane
+51_tetrasilylmethane,C(SiH3)4,[SiH3]C([SiH3])([SiH3])[SiH3],carbon-bridged hydrosilane
+52_silylstannane,H3SiSnH3,[SiH3][SnH3],Si-Sn precursor
+53_silanol,H3SiOH,[SiH3]O,oxygen-functionalized
+54_methyl_silyl_ether,MeOSiH3,CO[SiH3],oxygen-functionalized
+55_phenyl_silyl_ether,PhOSiH3,[SiH3]Oc1ccccc1,oxygen-functionalized
+56_silylthiol,H3SiSH,[SiH3]S,sulfur-functionalized
+57_methyl_silyl_sulfide,MeSSiH3,[SiH3]SC,sulfur-functionalized
+58_phenyl_silyl_sulfide,PhSSiH3,[SiH3]Sc1ccccc1,sulfur-functionalized
+59_silyl_thiogermane,H3SiSGeH3,[SiH3]S[GeH3],Si-Ge-S precursor
+60_phenyl_silyl_selenide,PhSeSiH3,[SiH3][Se]c1ccccc1,selenium-functionalized
+61_trimethylsilyl_silyl_selenide,Me3SiSeSiH3,[SiH3][Se][Si](C)(C)C,selenium-functionalized
+62_methyl_silyl_telluride,MeTeSiH3,[SiH3][Te]C,tellurium-functionalized
+63_silyl_azide,H3SiN3,[SiH3]N=[N+]=[N-],Si-N precursor
+64_silyl_isocyanate,H3SiNCO,[SiH3]N=C=O,Si-N-C-O precursor
+65_silyl_isothiocyanate,H3SiNCS,[SiH3]N=C=S,Si-N-C-S precursor
+66_fluorosilane,H3SiF,[SiH3]F,halohydrosilane
+67_monofluorodisilane,FH2SiSiH3,F[SiH2][SiH3],halohydrosilane
+68_difluorodisilane,F2HSiSiH3,F[SiH](F)[SiH3],halohydrosilane
