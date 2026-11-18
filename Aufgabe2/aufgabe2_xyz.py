@@ -45,11 +45,6 @@ for name in sorted(os.listdir(ordner)):
             xyz_name = name.replace(".out", ".xyz")
             xyz_pfad = os.path.join(ordner, xyz_name)
 
-        if letzte_geometrie:
-
-            xyz_name = name.replace(".out", ".xyz")
-            xyz_pfad = os.path.join(ordner, xyz_name)
-
             with open(xyz_pfad, "w") as datei:
                 datei.write(str(len(letzte_geometrie)) + "\n")
                 datei.write(name + "\n")
