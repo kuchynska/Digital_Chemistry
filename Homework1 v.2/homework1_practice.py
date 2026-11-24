@@ -129,8 +129,6 @@ print("Reaction network saved successfully!")
 
 
 #VISUALISE REACTION NETWORK
-
-
 # Create a directed graph
 G = nx.DiGraph()
 
